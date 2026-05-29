@@ -1,0 +1,39 @@
+lookWeights:
+  - 50
+  - 0
+  - 0
+  - 0
+maleFirst:
+  - Biscuit
+  - Byte
+  - Cinder
+  - Figaro
+  - Gadget
+  - Gizmo
+  - Marble
+  - Nibble
+  - Pip
+  - Pixel
+  - Quill
+  - Rascal
+  - Rook
+  - Scraps
+  - Sprocket
+  - Tinker
+femaleFirst:
+  - Clover
+  - Dotty
+  - Hazel
+  - Jinx
+  - Mabel
+  - Mochi
+  - Pebble
+  - Pepper
+  - Poppy
+  - Roo
+  - Smudge
+  - Toffee
+  - Trinket
+  - Velma
+  - Wren
+  - Zippy

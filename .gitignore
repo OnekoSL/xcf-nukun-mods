@@ -1,0 +1,23 @@
+# Local OpenXcom/OXCE state
+options.cfg
+*.log
+*.sav
+*.bak
+*.tmp
+_archive/
+
+# Release/build output
+dist/
+*.zip
+
+# Caches and editor files
+.cache/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Do not accidentally vendor full upstream or third-party mods
+mods/XComFiles/
+mods/DarkGeoscape/
+mods/XCF Cyrillic Names/

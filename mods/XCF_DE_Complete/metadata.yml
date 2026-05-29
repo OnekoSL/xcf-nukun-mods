@@ -1,0 +1,8 @@
+name: XCF German Complete
+version: 1.0.0
+requiredExtendedVersion: 8.5
+author: Codex + nukun
+description: Consolidated German translation overlay for X-Com Files, generated from archived source mods.
+id: XCF-DE-Complete
+isMaster: false
+master: x-com-files

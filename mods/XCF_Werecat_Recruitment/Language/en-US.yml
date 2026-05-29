@@ -1,0 +1,9 @@
+en-US:
+  STR_WERECAT_TAMING: "Werecat Taming"
+  STR_WERECAT_TAMING_UFOPEDIA: "After studying live Werecats and refining our animal handling procedures, we believe we can condition a captured specimen for limited X-Com field service. A Werecat will never replace a standard agent and cannot be trusted with delicate equipment, but it is fast, stealthy and brutally effective in close combat."
+  STR_WERECAT_TRAINING: "Werecat Conditioning"
+  STR_WERECAT_TRAINING_UFOPEDIA: "A live captured Werecat can now be assigned to the Husbandry workshop for conditioning. The process turns one captive Werecat into a loyal X-Com Werecat operative. It remains a feral close-combat specialist: fast, alert and dangerous with its claws, but unsuitable for normal weapons, armor or delicate field equipment."
+  STR_WERECAT_AGENT: "Werecat"
+  STR_XCOM_WERECAT_ARMOR: "UNARMORED (WERECAT)"
+  STR_XCOM_WERECAT_ARMOR_UNDERWATER: "UNARMORED (WERECAT) (Underwater)"
+  STR_XCOM_WERECAT_ARMOR_UFOPEDIA: "A conditioned Werecat relies on speed, senses and claws rather than conventional gear. It is best used as a mobile melee hunter and scout."

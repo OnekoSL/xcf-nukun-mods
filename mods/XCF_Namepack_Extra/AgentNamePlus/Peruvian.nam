@@ -1,0 +1,62 @@
+globalWeight: 39
+lookWeights: 
+  - 10  
+  - 30 
+  - 30 
+  - 30
+maleFirst:
+  - Alberto
+  - Jorge 
+  - Victor 
+  - Cesar 
+  - Miguel
+  - Julio
+  - Segundo
+  - David
+  - Daniel
+  - Oscar
+femaleFirst:
+  - Carmen
+  - Elizabeth
+  - Flor
+  - Juana
+  - Julia
+  - Diana
+  - Victoria
+  - Milagros
+  - Gloria
+  - Claudia
+maleLast:
+  - Aysanoa
+  - Bacuy
+  - Castillo
+  - Castro
+  - Chavez
+  - Diaz
+  - Espinoza
+  - Flores
+  - Garcia
+  - Gómez
+  - Gonzales
+  - Herrera
+  - Huaman
+  - Lopez
+  - Mamani
+  - Mendoza
+  - Morales
+  - Perez
+  - Pizango
+  - Quispe
+  - Ramirez
+  - Ramos
+  - Romero
+  - Ruiz
+  - Reyes
+  - Rodriguez
+  - Rojas
+  - Salazar
+  - Sanchez
+  - Santome
+  - Soria
+  - Torres
+  - Vazquez

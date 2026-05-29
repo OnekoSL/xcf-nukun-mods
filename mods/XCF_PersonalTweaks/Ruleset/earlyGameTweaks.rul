@@ -1,0 +1,43 @@
+# Keep this addon intentionally small so it survives XCF updates cleanly.
+# The starting HQ only has 5 lab slots, so scientists stay at the vanilla cap.
+
+startingBase:
+  randomSoldiers:
+    STR_SOLDIER: 7
+  scientists: 5
+  engineers: 3
+  items:
+    STR_GLOCK_18_CLIP: 12
+    STR_SMALL_SHOTGUN_SHELLS: 5
+    STR_MEDI_PACK: 3
+    STR_MAG_LITE: 3
+    STR_SMOKE_GRENADE: 1
+    STR_ELECTRO_FLARE: 2
+    STR_PAINKILLER: 2
+  crafts:
+    - type: STR_CIVILIAN_CAR
+      id: 1
+      fuel: 9999
+      damage: 0
+      items:
+        STR_GLOCK_18: 3
+        STR_GLOCK_18_CLIP: 9
+        STR_SMALL_SHOTGUN: 1
+        STR_SMALL_SHOTGUN_SHELLS: 3
+        STR_COMBAT_KNIFE: 2
+        STR_MEDI_PACK: 1
+        STR_TASER: 1
+        STR_TASER_CLIP: 2
+      status: STR_READY
+
+research:
+  - name: STR_BASIC_OPERATIONS
+    cost: 40
+  - name: STR_MEDICINE
+    cost: 40
+  - name: STR_NONSTANDARD_WEAPONS
+    cost: 40
+  - name: STR_PERSONAL_PROTECTION
+    cost: 40
+  - name: STR_LOGISTICS
+    cost: 40

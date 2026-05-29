@@ -1,0 +1,8 @@
+name: "XCF Namepack Extra"
+version: "0.1.0"
+requiredExtendedVersion: "8.5"
+author: "Codex + nukun"
+description: "Additional Latin-script agent name pools merged into a larger XCF agent name set."
+id: XCF-Namepack-Extra
+isMaster: false
+master: x-com-files

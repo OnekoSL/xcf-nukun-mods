@@ -1,0 +1,279 @@
+research:
+  - name: STR_WERECAT_TAMING
+    cost: 45
+    points: 30
+    dependencies:
+      - STR_WERECAT_AUTOPSY
+      - STR_ANIMAL_RECRUITMENT
+    listOrder: 300033
+
+manufacture:
+  - name: STR_WERECAT_TRAINING
+    category: STR_HUSBANDRY
+    space: 0
+    time: 90
+    cost: 4000
+    requires:
+      - STR_WERECAT_TAMING
+    requiredItems:
+      STR_WERECAT_TERRORIST: 1
+    spawnedPersonType: STR_WERECAT_AGENT
+    producedItems: {}
+    refund: true
+    listOrder: 300033
+
+soldiers:
+  - type: STR_WERECAT_AGENT
+    requires:
+      - STR_WERECAT_TAMING
+    costSalary: 1500
+    minStats:
+      tu: 80
+      stamina: 85
+      health: 40
+      bravery: 20
+      reactions: 55
+      firing: 0
+      throwing: 0
+      strength: 20
+      psiStrength: 35
+      psiSkill: 0
+      melee: 70
+      mana: 80
+    maxStats:
+      tu: 90
+      stamina: 100
+      health: 55
+      bravery: 40
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 30
+      psiStrength: 45
+      psiSkill: 0
+      melee: 85
+      mana: 100
+    statCaps:
+      tu: 120
+      stamina: 140
+      health: 75
+      bravery: 60
+      reactions: 100
+      firing: 20
+      throwing: 20
+      strength: 45
+      psiStrength: 55
+      psiSkill: 5
+      melee: 110
+      mana: 140
+    trainingStatCaps:
+      tu: 90
+      stamina: 100
+      health: 55
+      bravery: 40
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 30
+      psiStrength: 45
+      psiSkill: 0
+      melee: 85
+      mana: 0
+    armor: STR_XCOM_WERECAT_ARMOR
+    armorForAvatar: STR_XCOM_WERECAT_ARMOR
+    avatarOffsetX: 58
+    avatarOffsetY: 56
+    soldierNames:
+      - delete
+      - WerecatName/ZZZ_Werc.nam
+    rankStrings:
+      - STR_WERECAT_AGENT
+    allowPiloting: false
+    allowPromotion: false
+    flagOffset: 810
+    moraleLossWhenKilled: 33
+    standHeight: 22
+    kneelHeight: 16
+    femaleFrequency: 50
+    deathMale: 6
+    deathFemale: 6
+
+armors:
+  - type: STR_XCOM_WERECAT_ARMOR
+    spriteSheet: WERECAT.PCK
+    spriteInv: inventory_WERECAT
+    corpseBattle:
+      - STR_WERECAT_CORPSE
+    storeItem: STR_NONE
+    visibilityAtDark: 20
+    heatVision: 50
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.4
+      moraleCurrent: 0.33
+      bravery: 0.2
+    drawingRoutine: 10
+    allowsKneeling: false
+    movementType: 0
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 12.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      health:
+        stunNormalized: -0.1
+      energy:
+        manaNormalized: 55
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        manaNormalized: 8.0
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.2
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+    units:
+      - STR_WERECAT_AGENT
+    builtInWeapons:
+      - STR_WERECAT_WEAPON
+      - INV_NULL_HAND_R
+      - INV_NULL_HAND_L
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_LEG
+      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_4X2_BELT
+      - INV_NULL_3X3_BACK_PACK
+    loftempsSet: [3]
+    tags:
+      HANDCUFF_PROTECTION: 50
+  - type: STR_XCOM_WERECAT_ARMOR_UNDERWATER
+    spriteSheet: WERECAT.PCK
+    spriteInv: inventory_WERECAT
+    corpseBattle:
+      - STR_WERECAT_CORPSE
+    storeItem: STR_NONE
+    requires: STR_TROLLIUM
+    visibilityAtDay: 2
+    visibilityAtDark: 2
+    heatVision: 50
+    personalLight: 5
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 12
+    psiDefence:
+      psiStrength: 1.0
+      psiSkill: 0.4
+      moraleCurrent: 0.33
+      bravery: 0.2
+    drawingRoutine: 10
+    allowsKneeling: false
+    movementType: 0
+    recovery:
+      morale:
+        flatHundred: -0.1
+        manaNormalized: 12.0
+      time:
+        tu: 0.5
+        manaNormalized: 125.0
+      health:
+        flatHundred: -0.2
+      energy:
+        manaNormalized: 35
+        healthCurrent: 0.25
+      stun:
+        healthCurrent: 0.06
+        health: -0.09
+        stunCurrent: 0.036
+        manaNormalized: 8.0
+    meleeDodge:
+      reactions: 0.5
+    meleeDodgeBackPenalty: 0.2
+    overKill: 1.5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+    units:
+      - STR_WERECAT_AGENT
+    builtInWeapons:
+      - STR_WERECAT_WEAPON
+      - INV_NULL_HAND_R
+      - INV_NULL_HAND_L
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_LEG
+      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_4X2_BELT
+      - INV_NULL_3X3_BACK_PACK
+    loftempsSet: [3]
+    tags:
+      HANDCUFF_PROTECTION: 50
+
+ufopaedia:
+  - id: STR_WERECAT_TAMING
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: UFOPEDIA_IMG_WERECAT
+    text: STR_WERECAT_TAMING_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_WERECAT_TAMING
+    listOrder: 300033
+  - id: STR_WERECAT_TRAINING
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: UFOPEDIA_IMG_WERECAT
+    text: STR_WERECAT_TRAINING_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_WERECAT_TAMING
+    listOrder: 300034
+  - id: STR_XCOM_WERECAT_ARMOR
+    type_id: 5
+    section: STR_ARMORS
+    requires:
+      - STR_WERECAT_TAMING
+    text: STR_XCOM_WERECAT_ARMOR_UFOPEDIA
+    listOrder: 17596

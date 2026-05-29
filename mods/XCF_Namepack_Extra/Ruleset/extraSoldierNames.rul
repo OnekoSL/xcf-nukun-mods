@@ -1,0 +1,41 @@
+soldiers:
+  - type: STR_SOLDIER
+    soldierNames:
+      - delete
+      - AgentNamePlus/
+  - type: STR_INFERNAL
+    soldierNames:
+      - delete
+      - AgentNamePlus/
+  - type: STR_SPARTAN
+    soldierNames:
+      - delete
+      - AgentNamePlus/
+  - type: STR_OLYMPIAN
+    soldierNames:
+      - delete
+      - AgentNamePlus/
+  - type: STR_PROTEAN
+    soldierNames:
+      - delete
+      - AgentNamePlus/
+  - type: STR_KYBEROS
+    soldierNames:
+      - delete
+      - AgentNamePlus/
+  - type: STR_DOG
+    soldierNames:
+      - delete
+      - DogNamePlus/
+  - type: STR_RAT
+    soldierNames:
+      - delete
+      - RatNamePlus/
+  - type: STR_BAT
+    soldierNames:
+      - delete
+      - BatNamePlus/
+  - type: STR_MUGGLE_AI
+    soldierNames:
+      - delete
+      - AINamePlus/

@@ -1,0 +1,61 @@
+globalWeight: 43
+lookWeights: 
+  - 10  
+  - 30 
+  - 30 
+  - 30
+maleFirst:
+  - Santiago
+  - Samuel 
+  - Jeronimo 
+  - Emmanuel 
+  - Emiliano
+  - Maximiliano
+  - Mathias
+  - Sebastian
+  - Martin
+  - Juan 
+femaleFirst:
+  - Luciana
+  - Isabella
+  - Mariana
+  - Gabriela
+  - Mariangel
+  - Valentina
+  - Antonella
+  - Samantha
+  - Valeria
+  - Maria
+maleLast:
+  - Alvarez
+  - Castro
+  - Diaz
+  - Garcia 
+  - Giraldo
+  - Gomez
+  - Gonzalez
+  - Gutierrez
+  - Hernandez 
+  - Herrera
+  - Herrero
+  - Jimenez
+  - Lopez
+  - Martinez
+  - Morales
+  - Moreno
+  - Muñoz
+  - Ortiz
+  - Perez
+  - Quintero
+  - Ramirez
+  - Rivera
+  - Rodriguez
+  - Romero
+  - Rojas
+  - Ruiz
+  - Perez
+  - Sanchez
+  - Suarez
+  - Torres
+  - Valencia
+  - Vargas

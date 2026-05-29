@@ -1,0 +1,60 @@
+globalWeight: 15
+lookWeights:
+  - 28
+  - 28
+  - 22
+  - 22
+maleFirst:
+  - Andre
+  - Bruno
+  - Caio
+  - Diego
+  - Emilio
+  - Hector
+  - Javier
+  - Joao
+  - Julio
+  - Luis
+  - Mateo
+  - Miguel
+  - Pablo
+  - Rafael
+  - Ramon
+  - Sergio
+  - Thiago
+  - Tomas
+femaleFirst:
+  - Camila
+  - Daniela
+  - Elisa
+  - Fernanda
+  - Gabriela
+  - Ines
+  - Lucia
+  - Marisol
+  - Natalia
+  - Paloma
+  - Renata
+  - Rosa
+  - Sofia
+  - Valeria
+  - Vanessa
+  - Ximena
+maleLast:
+  - Alvarez
+  - Aquino
+  - Benitez
+  - Cabrera
+  - Delgado
+  - Duarte
+  - Ferreira
+  - Ibanez
+  - Mendoza
+  - Navarro
+  - Ortega
+  - Peralta
+  - Quiroga
+  - Salazar
+  - Torres
+  - Vargas
+  - Zapata

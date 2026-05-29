@@ -1,0 +1,41 @@
+lookWeights:
+  - 50
+  - 0
+  - 0
+  - 0
+maleFirst:
+  - Atlas
+  - Banner
+  - Bruno
+  - Copper
+  - Duke
+  - Echo
+  - Flint
+  - Ghost
+  - Hektor
+  - Jax
+  - Koda
+  - Ranger
+  - Rex
+  - Riggs
+  - Scout
+  - Tango
+  - Tracker
+  - Yukon
+femaleFirst:
+  - Astra
+  - Delta
+  - Freya
+  - Gypsy
+  - Indy
+  - Kira
+  - Laika
+  - Nova
+  - Piper
+  - Raven
+  - Roxy
+  - Sasha
+  - Sable
+  - Skye
+  - Tala
+  - Vega

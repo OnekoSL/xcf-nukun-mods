@@ -1,0 +1,43 @@
+lookWeights:
+  - 50
+  - 0
+  - 0
+  - 0
+maleFirst:
+  - Aegis
+  - Argus
+  - Bastion
+  - Cipher
+  - Cyclone
+  - Helix
+  - Ion
+  - Kestrel
+  - Mainframe
+  - Mirage
+  - Nexus
+  - Overwatch
+  - Quasar
+  - Rampart
+  - Relay
+  - Sentinel
+  - Solstice
+  - Vector
+  - Watchman
+  - Zero
+femaleFirst:
+  - Aurora
+  - Circuit
+  - Comet
+  - Halo
+  - Iris
+  - Lumen
+  - Matrix
+  - Meridian
+  - Nova
+  - Prism
+  - Proxy
+  - Seraph
+  - Signal
+  - Sonata
+  - Vertex
+  - Vivid

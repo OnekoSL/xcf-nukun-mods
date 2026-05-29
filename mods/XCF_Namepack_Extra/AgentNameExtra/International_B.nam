@@ -1,0 +1,58 @@
+globalWeight: 14
+lookWeights:
+  - 35
+  - 35
+  - 15
+  - 15
+maleFirst:
+  - Amir
+  - Aziz
+  - Cem
+  - Darius
+  - Emre
+  - Farid
+  - Hasan
+  - Idris
+  - Jalal
+  - Karim
+  - Kian
+  - Murat
+  - Nadir
+  - Omar
+  - Rashid
+  - Samir
+  - Tarek
+  - Yasin
+femaleFirst:
+  - Amina
+  - Darya
+  - Ebru
+  - Esma
+  - Farah
+  - Iman
+  - Lale
+  - Leila
+  - Maryam
+  - Nadia
+  - Nermin
+  - Samira
+  - Selin
+  - Soraya
+  - Yasmin
+  - Zeynep
+maleLast:
+  - Arslan
+  - Demir
+  - Haddad
+  - Ismail
+  - Karim
+  - Kaya
+  - Mansouri
+  - Nasser
+  - Ozdemir
+  - Rahimi
+  - Sadik
+  - Salim
+  - Shahin
+  - Yildiz
+  - Zahiri

@@ -1,0 +1,37 @@
+lookWeights:
+  - 50
+  - 0
+  - 0
+  - 0
+maleFirst:
+  - Ashwing
+  - Dusk
+  - Fang
+  - Flicker
+  - Grimm
+  - Hollow
+  - Noctis
+  - Obsidian
+  - Onyx
+  - Shade
+  - Silas
+  - Soot
+  - Tenebris
+  - Vesper
+  - Whisper
+femaleFirst:
+  - Echo
+  - Ember
+  - Luna
+  - Mist
+  - Nightjar
+  - Nyx
+  - Opal
+  - Selene
+  - Shadow
+  - Silhouette
+  - Starling
+  - Twilight
+  - Umbra
+  - Velvet
+  - Willow

@@ -1,0 +1,8 @@
+name: "XCF Werecat Recruitment"
+version: "0.1.0"
+requiredExtendedVersion: "8.5"
+author: "Codex + nukun"
+description: "Optional XCF submod that allows captured Werecats to be conditioned for limited field service."
+id: XCF-Werecat-Recruitment
+isMaster: false
+master: x-com-files

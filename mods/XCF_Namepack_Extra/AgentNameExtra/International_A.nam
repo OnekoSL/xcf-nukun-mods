@@ -1,0 +1,67 @@
+globalWeight: 16
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - Adrian
+  - Alex
+  - Daniel
+  - Elias
+  - Gabriel
+  - Jonas
+  - Leo
+  - Lucas
+  - Marcel
+  - Martin
+  - Milan
+  - Nico
+  - Oscar
+  - Pavel
+  - Robin
+  - Sebastian
+  - Simon
+  - Tomas
+  - Victor
+  - Yann
+femaleFirst:
+  - Alina
+  - Anna
+  - Clara
+  - Elena
+  - Hannah
+  - Iris
+  - Julia
+  - Lara
+  - Lea
+  - Lina
+  - Mara
+  - Mila
+  - Nadia
+  - Nina
+  - Nora
+  - Paula
+  - Sofia
+  - Talia
+  - Vera
+  - Yara
+maleLast:
+  - Barros
+  - Costa
+  - Dubois
+  - Falk
+  - Keller
+  - Kovacs
+  - Lindberg
+  - Marin
+  - Mercier
+  - Moreau
+  - Novak
+  - Nygaard
+  - Petrov
+  - Rossetti
+  - Silva
+  - Weber
+  - Winter
+  - Varga

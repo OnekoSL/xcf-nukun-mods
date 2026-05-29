@@ -1,0 +1,67 @@
+globalWeight: 39
+lookWeights:
+  - 10
+  - 30
+  - 30
+  - 30
+maleFirst:
+  - Bautista
+  - Benjamin
+  - Felipe
+  - Juan
+  - Joaquin
+  - Mateo
+  - Santiago
+  - Santino
+  - Thiago
+  - Tomas
+femaleFirst:
+  - Alma
+  - Catalina
+  - Emma
+  - Isabella
+  - Maria
+  - Martina
+  - Mia
+  - Sofia
+  - Valentina
+  - Zoe
+maleLast:
+  - Acosta
+  - Aguirre
+  - Alonso
+  - Alvarez
+  - Benitez
+  - Blanco
+  - Castro
+  - Diaz
+  - Dominguez
+  - Fernandez
+  - Flores
+  - Garcia
+  - Gimenez
+  - Gomez
+  - Gonzalez
+  - Gutierrez
+  - Herrera
+  - Iglesias
+  - Lopez
+  - Martin
+  - Martinez
+  - Medina
+  - Nuñez
+  - Pereyra
+  - Perez
+  - Ramirez
+  - Ramos
+  - Rodriguez
+  - Romero
+  - Rossi
+  - Ruiz
+  - Sanchez
+  - Silva
+  - Sosa
+  - Suarez
+  - Torres
+  - Varela
+  - Vazquez

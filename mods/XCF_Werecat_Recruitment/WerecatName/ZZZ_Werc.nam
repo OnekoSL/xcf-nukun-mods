@@ -1,0 +1,47 @@
+lookWeights:
+  - 50
+  - 0
+  - 0
+  - 0
+maleFirst:
+  - Ash
+  - Bram
+  - Cinder
+  - Fang
+  - Flint
+  - Jago
+  - Kael
+  - Kuro
+  - Lynx
+  - Mako
+  - Nox
+  - Onyx
+  - Prowl
+  - Riven
+  - Salem
+  - Shade
+  - Talon
+  - Vark
+  - Whisper
+  - Zev
+femaleFirst:
+  - Aya
+  - Ember
+  - Freya
+  - Hex
+  - Isha
+  - Kira
+  - Luna
+  - Mira
+  - Nyra
+  - Onna
+  - Raven
+  - Rhea
+  - Sable
+  - Shadow
+  - Shira
+  - Skadi
+  - Talia
+  - Vesper
+  - Yuna
+  - Zara

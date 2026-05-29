@@ -1,0 +1,8 @@
+name: "XCF Personal Tweaks"
+version: "0.2.0"
+requiredExtendedVersion: "8.5"
+author: "Codex + nukun"
+description: "Conservative early-game and starting-base adjustments for The X-Com Files."
+id: XCF-PersonalTweaks
+isMaster: false
+master: x-com-files
