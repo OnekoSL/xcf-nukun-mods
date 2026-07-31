@@ -19,3 +19,122 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopaedia/Autopsy/Fenrir_Wolf_Autopsy.png
+
+  - type: UFOPEDIA_IMG_WERECAT_AUTOPSY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Werecat_Autopsy.png
+
+  - type: UFOPEDIA_IMG_XCOMORIGINS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/XCom_Origins.png
+
+  - type: UFOPEDIA_IMG_KIRYU_KAI
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Kiryu_Kai.png
+
+  - type: LAND_SURVEY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Land_Survey.png
+
+  - type: COVER_WORKERS_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Cover_Workers.png
+
+  - type: CULTISTS_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Secret_Cults.png
+
+  - type: FRIENDS_ON_THE_COUNCIL_01
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Council_Friends_01.png
+
+  - type: FRIENDS_ON_THE_COUNCIL_02
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Council_Friends_02.png
+
+  - type: POSTAL_DIARY_CPAL
+    singleImage: true
+    width: 320
+    height: 160
+    files:
+      0: Resources/Ufopaedia/Reports/Madmans_Diary.png
+
+  - type: CIVILIAN_CAR_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Vehicles/Civilian_Car.png
+
+  - type: PORSCHE.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Vehicles/Luxury_Car.png
+
+  - type: VAN_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Vehicles/Public_Van.png
+
+  - type: MUDRANGER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Vehicles/Mudranger.png
+
+  - type: UFOPEDIA_IMG_NEED_TO_KNOW_BASIS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Need_To_Know.png
+
+  - type: UFOPEDIA_IMG_DOSSIERS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Dossiers.png
+
+  - type: PILOTS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Pilots.png
+
+  - type: CRAFT_EQUIPMENT_TYPES
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Craft_Equipment_Types.png
