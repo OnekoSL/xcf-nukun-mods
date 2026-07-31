@@ -1,0 +1,8 @@
+name: "XCF Ufopaedia Art"
+version: "0.1.0"
+requiredExtendedVersion: "8.5"
+author: "Codex + nukun"
+description: "Replacement Ufopaedia autopsy illustrations for The X-Com Files."
+id: XCF-Ufopaedia-Art
+isMaster: false
+master: x-com-files
