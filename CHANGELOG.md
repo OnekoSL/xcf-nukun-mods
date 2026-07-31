@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Added `XCF_Ufopaedia_Art` with replacement autopsy illustrations for the
+  Chupacabra, Asmodeus Cobra, and Fenrir Wolf.
+
 ## v2026.05.29
 
 - Initial public repository package.

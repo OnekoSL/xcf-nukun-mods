@@ -1,0 +1,21 @@
+extraSprites:
+  - type: UFOPEDIA_IMG_CHUPACABRA_AUTOPSY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Chupacabra_Autopsy.png
+
+  - type: UFOPEDIA_IMG_ASMODEAN_COBRA_AUTOPSY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Asmodean_Cobra_Autopsy.png
+
+  - type: UFOPEDIA_IMG_FENRIR_AUTOPSY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Fenrir_Wolf_Autopsy.png
