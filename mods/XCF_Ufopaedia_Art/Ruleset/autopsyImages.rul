@@ -138,3 +138,241 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopaedia/Tutorials/Craft_Equipment_Types.png
+
+  - type: UFOPEDIA_IMG_TRANSFORMATIONS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Transformations.png
+
+  - type: UFOPEDIA_IMG_RETREAT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Retreat.png
+
+  - type: UFOPEDIA_IMG_OVERSTUN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Overstun.png
+
+  - type: UFOPEDIA_IMG_CAMO
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Camo.png
+
+  - type: UFOPEDIA_IMG_OUTDATED_WEAPONS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Outdated_Weapons.png
+
+  - type: UFOPEDIA_IMG_MISSIONS_AND_RESEARCH_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Missions_And_Research.png
+
+  - type: UFOPEDIA_IMG_SANITY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Sanity.png
+
+  - type: UFOPEDIA_IMG_TEAMWORK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Teamwork.png
+
+  - type: UFOPEDIA_IMG_DAMAGE_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Damage.png
+
+  - type: UFOPEDIA_IMG_DAMAGE_ROLLS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Damage_Rolls.png
+
+  - type: UFOPEDIA_IMG_ACCURACY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Accuracy.png
+
+  - type: UFOPEDIA_IMG_FIRE_SPRAYING_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Fire_Spraying.png
+
+  - type: UFOPEDIA_IMG_NIGHTVISION
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Night_Vision.png
+
+  - type: HEAT_VISION
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Heat_Vision.png
+
+  - type: UFOPEDIA_IMG_CROWD_CONTROL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Crowd_Control.png
+
+  - type: UFOPEDIA_IMG_HUNTER_HUNTED
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Look_Around.png
+
+  - type: UFOPEDIA_IMG_SURRENDER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Surrender.png
+
+  - type: UFOPEDIA_IMG_STR_SNIPER_SPOTTER_COOPERATION
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Sniper_Spotter.png
+
+  - type: UFOPEDIA_IMG_ENEMY_REINFORCEMENTS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Enemy_Reinforcements.png
+
+  - type: UFOPEDIA_IMG_CONCEALABLE_ITEMS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Concealable_Items.png
+
+  - type: CQC_CPAL.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Close_Quarters_Combat.png
+
+  - type: UFOPEDIA_IMG_FIRE_DAMAGE_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Fire_Damage.png
+
+  - type: UFOPEDIA_IMG_SMOKE_DAMAGE_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Smoke_Damage.png
+
+  - type: UFOPEDIA_IMG_UNARMED_COMBAT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Unarmed_Combat.png
+
+  - type: UFOPEDIA_IMG_MELEE_WEAPONS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Melee_Weapons.png
+
+  - type: UFOPEDIA_IMG_PISTOLS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Pistols.png
+
+  - type: UFOPEDIA_IMG_SMGS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/SMGs.png
+
+  - type: UFOPEDIA_IMG_RIFLES
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Rifles.png
+
+  - type: UFOPEDIA_IMG_SNIPER_RIFLES
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Sniper_Rifles.png
+
+  - type: UFOPEDIA_IMG_SHOTGUNS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Shotguns.png
+
+  - type: UFOPEDIA_IMG_CANNONS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Cannons.png
+
+  - type: UFOPEDIA_IMG_MACHINE_GUNS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Machine_Guns.png
+
+  - type: UFOPEDIA_IMG_LAUNCHERS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Launchers.png
+
+  - type: UFOPEDIA_IMG_INCENDIARIES
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Incendiaries.png

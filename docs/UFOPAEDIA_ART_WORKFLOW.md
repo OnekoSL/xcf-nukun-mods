@@ -112,6 +112,47 @@ Weitere bestätigte Tutorial-Beispiele: `UFOPEDIA_IMG_DOSSIERS` und
 `UFOPEDIA_IMG_NEED_TO_KNOW_BASIS_CPAL` und `PILOTS_CPAL` verwenden
 eine benutzerdefinierte Palette.
 
+Die neuen Tutorial-Sprites `UFOPEDIA_IMG_TRANSFORMATIONS`,
+`UFOPEDIA_IMG_RETREAT`, `UFOPEDIA_IMG_OVERSTUN` und `UFOPEDIA_IMG_CAMO`
+verwenden ebenfalls die Standardpalette.
+
+Weitere gepruefte Tutorial-Sprites: `UFOPEDIA_IMG_OUTDATED_WEAPONS_CPAL`,
+`UFOPEDIA_IMG_MISSIONS_AND_RESEARCH_CPAL` und `UFOPEDIA_IMG_SANITY_CPAL`
+verwenden eine benutzerdefinierte Palette. `UFOPEDIA_IMG_TEAMWORK` verwendet
+die Standardpalette.
+
+Bei den Mechanikartikeln verwenden `UFOPEDIA_IMG_DAMAGE_CPAL` und
+`UFOPEDIA_IMG_FIRE_SPRAYING_CPAL` eine benutzerdefinierte Palette.
+`UFOPEDIA_IMG_DAMAGE_ROLLS` und `UFOPEDIA_IMG_ACCURACY` verwenden die
+Standardpalette.
+
+
+Auch `UFOPEDIA_IMG_NIGHTVISION`, `HEAT_VISION`,
+`UFOPEDIA_IMG_CROWD_CONTROL` und `UFOPEDIA_IMG_HUNTER_HUNTED` verwenden die
+Standardpalette.
+
+Bei der naechsten Tutorial-Gruppe verwenden `UFOPEDIA_IMG_SURRENDER`,
+`UFOPEDIA_IMG_STR_SNIPER_SPOTTER_COOPERATION` und
+`UFOPEDIA_IMG_CONCEALABLE_ITEMS` die Standardpalette.
+`UFOPEDIA_IMG_ENEMY_REINFORCEMENTS_CPAL` verwendet eine benutzerdefinierte
+Palette mit den reservierten Indizes.
+
+Auch `CQC_CPAL.SPK`, `UFOPEDIA_IMG_FIRE_DAMAGE_CPAL` und
+`UFOPEDIA_IMG_SMOKE_DAMAGE_CPAL` verwenden benutzerdefinierte Paletten mit
+den reservierten Indizes.
+
+Bei den Waffenvorstellungen verwenden `UFOPEDIA_IMG_UNARMED_COMBAT`,
+`UFOPEDIA_IMG_PISTOLS`, `UFOPEDIA_IMG_SMGS` und `UFOPEDIA_IMG_RIFLES` die
+Standardpalette. `UFOPEDIA_IMG_MELEE_WEAPONS_CPAL` verwendet eine
+benutzerdefinierte Palette mit den reservierten Indizes.
+
+Die restlichen Waffenvorstellungen `UFOPEDIA_IMG_SNIPER_RIFLES`,
+`UFOPEDIA_IMG_SHOTGUNS`, `UFOPEDIA_IMG_CANNONS`,
+`UFOPEDIA_IMG_MACHINE_GUNS`, `UFOPEDIA_IMG_LAUNCHERS` und
+`UFOPEDIA_IMG_INCENDIARIES` verwenden ebenfalls die Standardpalette.
+
+
+
 Bestimmte Indizes sind jedoch für Ufopaedia-Text und Bedienelemente reserviert.
 
 Für die aktuell geprüfte XCF-Version bleiben diese 23 Indizes unverändert:

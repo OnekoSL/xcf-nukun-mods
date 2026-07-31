@@ -12,6 +12,22 @@
   Car, Public Van, and Mudranger.
 - Added replacement tutorial illustrations for Need to Know Basis, Dossiers,
   Pilots, and Craft Equipment Types.
+- Added replacement tutorial illustrations for Transformations, Retreating,
+  Overstun, and Camouflage.
+- Added replacement tutorial illustrations for Outdated Weapons, Missions and
+  Research, Sanity, and Teamwork.
+- Added replacement tutorial illustrations for Damage, Damage Rolls, Accuracy,
+  and Fire Spraying.
+- Added replacement tutorial illustrations for Night Vision, Heat Vision,
+  Crowd Control, and Look Around.
+- Added replacement tutorial illustrations for Surrender, Sniper/Spotter
+  Cooperation, Enemy Reinforcements, and Concealable Items.
+- Added replacement tutorial illustrations for Close-Quarters Combat, Fire
+  Damage, and Smoke Damage.
+- Added a consistent leather-coat instructor series for Unarmed Combat, Melee
+  Weapons, Pistols, SMGs, and Rifles.
+- Continued the instructor series for Sniper Rifles, Shotguns, Cannons,
+  Machine Guns, Launchers, and Incendiaries.
 
 ## v2026.05.29
 
