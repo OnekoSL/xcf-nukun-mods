@@ -7,7 +7,7 @@ Small optional submods for The X-Com Files on OpenXcom Extended.
 - `XCF_DE_Complete`: consolidated German translation overlay for X-Com Files.
 - `XCF_Namepack_Extra`: expanded Latin-script name pools for agents, dogs, rats, bats, and AI units.
 - `XCF_PersonalTweaks`: conservative early-game and starting-base adjustments.
-- `XCF_Ufopaedia_Art`: replacement Ufopaedia autopsy illustrations.
+- `XCF_Ufopaedia_Art`: replacement Ufopaedia illustrations.
 - `XCF_Werecat_Recruitment`: optional captured-Werecat recruitment and husbandry addon.
 
 ## Requirements
@@ -36,6 +36,11 @@ XCF-Ufopaedia-Art
 ```
 
 The repository also stores the install-ready folders under `mods/` for users who prefer cloning or manual copying.
+
+## Artwork workflow
+
+The required palette conversion and validation process for Ufopaedia artwork is
+documented in [docs/UFOPAEDIA_ART_WORKFLOW.md](docs/UFOPAEDIA_ART_WORKFLOW.md).
 
 ## Notes
 
