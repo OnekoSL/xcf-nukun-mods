@@ -1,0 +1,76 @@
+extraSprites:
+  - type: UFOPEDIA_IMG_STAFF_002_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_002_Interrogation_What.png
+
+  - type: UFOPEDIA_IMG_STAFF_012_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_012_Disturbing_Message.png
+
+  - type: UFOPEDIA_IMG_STAFF_019_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_019_Medical_Advice.png
+
+  - type: UFOPEDIA_IMG_STAFF_039_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_039_Thermodynamics_of_Violence.png
+
+ufopaedia:
+  # XComFiles defines these as type 4; recreate them as type 7 so text can
+  # remain separate on the left while the illustration occupies the right.
+  - delete: STR_STAFF_002
+  - delete: STR_STAFF_012
+  - delete: STR_STAFF_019
+  - delete: STR_STAFF_039
+
+  - id: STR_STAFF_002
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_002_CPAL
+    text: STR_STAFF_002_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_STAFF_002
+    listOrder: 284020
+
+  - id: STR_STAFF_012
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_012_CPAL
+    text: STR_STAFF_012_UFOPEDIA
+    text_width: 250
+    requires:
+      - STR_STAFF_012
+    listOrder: 284120
+
+  - id: STR_STAFF_019
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_019_CPAL
+    text: STR_STAFF_019_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_STAFF_019
+    listOrder: 284190
+
+  - id: STR_STAFF_039
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_039_CPAL
+    text: STR_STAFF_039_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_STAFF_039
+    listOrder: 284390

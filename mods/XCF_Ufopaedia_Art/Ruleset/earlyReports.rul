@@ -1,0 +1,180 @@
+extraSprites:
+  - type: UFOPEDIA_IMG_WHAT_DO_NOW_MILESTONE_0_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/What_Do_Now_Milestone_0.png
+
+  - type: UFOPEDIA_IMG_MEDICINE_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Medicine.png
+
+  - type: UFOPEDIA_IMG_WHAT_DO_NOW_MILESTONE_1_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/What_Do_Now_Milestone_1.png
+
+  - type: UFOPEDIA_IMG_BASIC_OPERATIONS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Basic_Operations.png
+
+  - type: UFOPEDIA_IMG_NONSTANDARD_WEAPONS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Nonstandard_Weapons.png
+
+  - type: UFOPEDIA_IMG_PERSONAL_PROTECTION_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Personal_Protection.png
+
+  - type: UFOPEDIA_IMG_LOGISTICS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Logistics.png
+
+  - type: UFOPEDIA_IMG_TRANSPORT_ALTERNATIVE_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Transport_Alternative.png
+
+  - type: UFOPEDIA_IMG_XCOM_FLYERS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/XCom_Flyers.png
+  - type: UFOPEDIA_IMG_FOUND_ITEMS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Found_Items.png
+
+ufopaedia:
+  # XComFiles defines these as type 4. Delete them first so OXCE recreates
+  # the correct type-7 article class (text left, image right).
+  - delete: STR_WHAT_DO_NOW_MILESTONE_0
+  - delete: STR_MEDICINE
+  - delete: STR_WHAT_DO_NOW_MILESTONE_1
+  - delete: STR_BASIC_OPERATIONS
+  - delete: STR_NONSTANDARD_WEAPONS
+  - delete: STR_PERSONAL_PROTECTION
+  - delete: STR_LOGISTICS
+  - delete: STR_TRANSPORT_ALTERNATIVE
+  - delete: STR_XCOM_FLYERS
+  - delete: STR_FOUND_ITEMS
+
+  - id: STR_WHAT_DO_NOW_MILESTONE_0
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_WHAT_DO_NOW_MILESTONE_0_CPAL
+    text: STR_WHAT_DO_NOW_MILESTONE_0_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_WHAT_DO_NOW_MILESTONE_0
+    listOrder: 211290
+
+  - id: STR_MEDICINE
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_MEDICINE_CPAL
+    text: STR_MEDICINE_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_MEDICINE
+    listOrder: 200300
+
+  - id: STR_WHAT_DO_NOW_MILESTONE_1
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_WHAT_DO_NOW_MILESTONE_1_CPAL
+    text: STR_WHAT_DO_NOW_MILESTONE_1_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_WHAT_DO_NOW_MILESTONE_1
+    listOrder: 211291
+
+  - id: STR_BASIC_OPERATIONS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_BASIC_OPERATIONS_CPAL
+    text: STR_BASIC_OPERATIONS_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_BASIC_OPERATIONS
+    listOrder: 300050
+
+  - id: STR_NONSTANDARD_WEAPONS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_NONSTANDARD_WEAPONS_CPAL
+    text: STR_NONSTANDARD_WEAPONS_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_NONSTANDARD_WEAPONS
+    listOrder: 300300
+
+  - id: STR_PERSONAL_PROTECTION
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_PERSONAL_PROTECTION_CPAL
+    text: STR_PERSONAL_PROTECTION_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_PERSONAL_PROTECTION
+    listOrder: 300310
+
+  - id: STR_LOGISTICS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_LOGISTICS_CPAL
+    text: STR_LOGISTICS_UFOPEDIA
+    text_width: 250
+    requires:
+      - STR_LOGISTICS
+    listOrder: 300320
+  - id: STR_TRANSPORT_ALTERNATIVE
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_TRANSPORT_ALTERNATIVE_CPAL
+    text: STR_TRANSPORT_ALTERNATIVE_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_TRANSPORT_ALTERNATIVE
+    listOrder: 300330
+
+  - id: STR_XCOM_FLYERS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_XCOM_FLYERS_CPAL
+    text: STR_XCOM_FLYERS_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_XCOM_FLYERS
+    listOrder: 300489
+
+  - id: STR_FOUND_ITEMS
+    type_id: 7
+    section: STR_TUTORIALS_UC
+    image_id: UFOPEDIA_IMG_FOUND_ITEMS_CPAL
+    text: STR_FOUND_ITEMS_UFOPEDIA
+    text_width: 180
+    listOrder: 215070

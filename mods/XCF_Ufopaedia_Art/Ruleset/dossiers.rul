@@ -1,0 +1,38 @@
+extraSprites:
+  - type: DOSSIER_THOMAS_ERICKSON_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Thomas_Erickson.png
+
+  - type: DOSSIER_CHAD_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/CHAD.png
+
+ufopaedia:
+  - delete: STR_DOSSIER_THOMAS_ERICKSON
+  - delete: STR_DOSSIER_CHAD
+
+  - id: STR_DOSSIER_THOMAS_ERICKSON
+    type_id: 7
+    image_id: DOSSIER_THOMAS_ERICKSON_REPORT_CPAL
+    text_width: 158
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_THOMAS_ERICKSON_UFOPEDIA
+    requires:
+      - STR_DOSSIER_THOMAS_ERICKSON
+    listOrder: 270030
+
+  - id: STR_DOSSIER_CHAD
+    type_id: 7
+    image_id: DOSSIER_CHAD_REPORT_CPAL
+    text_width: 180
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_CHAD_UFOPEDIA
+    requires:
+      - STR_DOSSIER_CHAD
+    listOrder: 281100

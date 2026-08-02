@@ -1,0 +1,18 @@
+extraSprites:
+  - type: UFOPEDIA_IMG_COUNCIL_SALVAGE_CORPS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Council_Salvage_Corps.png
+
+ufopaedia:
+  - delete: STR_COUNCIL_SALVAGE_CORPS
+
+  - id: STR_COUNCIL_SALVAGE_CORPS
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_COUNCIL_SALVAGE_CORPS_CPAL
+    text: STR_COUNCIL_SALVAGE_CORPS_UFOPEDIA
+    text_width: 158
+    listOrder: 300000

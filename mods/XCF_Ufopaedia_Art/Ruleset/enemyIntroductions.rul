@@ -1,0 +1,110 @@
+extraSprites:
+  - type: UFOPEDIA_IMG_FARMER_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/Farmer.png
+
+  - type: UFOPEDIA_IMG_DOGE_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/Combat_Dog.png
+
+  - type: UFOPEDIA_IMG_SUPPORTER_OF_DAGON_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/Dagon_Supporter.png
+
+  - type: UFOPEDIA_IMG_BLACK_LOTUS_FOLLOWER_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/Black_Lotus_Follower.png
+
+  - type: UFOPEDIA_IMG_ZSRR_GANGER_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/ZSRR_Ganger.png
+
+  - type: UFOPEDIA_IMG_EXALT_INFILTRATOR_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/EXALT_Infiltrator.png
+
+ufopaedia:
+  - delete: STR_FARMER
+  - delete: STR_DOGE
+  - delete: STR_SUPPORTER_OF_DAGON
+  - delete: STR_BLACK_LOTUS_FOLLOWER
+  - delete: STR_ZSRR_GANGER
+  - delete: STR_EXALT_INFILTRATOR
+
+  - id: STR_FARMER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_FARMER_REPORT_CPAL
+    text: STR_HUMAN_FARMER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_FARMER
+    listOrder: 154000
+
+  - id: STR_DOGE
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_DOGE_REPORT_CPAL
+    text: STR_DOGE_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_DOG_RECRUITMENT
+    listOrder: 10730
+
+  - id: STR_SUPPORTER_OF_DAGON
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_SUPPORTER_OF_DAGON_REPORT_CPAL
+    text: STR_SUPPORTER_OF_DAGON_UFOPEDIA
+    text_width: 160
+    requires:
+      - STR_SUPPORTER_OF_DAGON
+    listOrder: 149970
+
+  - id: STR_BLACK_LOTUS_FOLLOWER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_BLACK_LOTUS_FOLLOWER_REPORT_CPAL
+    text: STR_BLACK_LOTUS_FOLLOWER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_BLACK_LOTUS_FOLLOWER
+    listOrder: 150100
+
+  - id: STR_ZSRR_GANGER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_ZSRR_GANGER_REPORT_CPAL
+    text: STR_ZSRR_GANGER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZSRR_GANGER
+    listOrder: 150200
+
+  - id: STR_EXALT_INFILTRATOR
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_EXALT_INFILTRATOR_REPORT_CPAL
+    text: STR_EXALT_INFILTRATOR_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_EXALT_INFILTRATOR
+    listOrder: 150300

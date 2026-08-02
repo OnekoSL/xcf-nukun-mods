@@ -1,3 +1,17 @@
+extraSprites:
+  - type: UFOPEDIA_IMG_WERECAT_TAMING_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Werecat_Taming.png
+
+  - type: UFOPEDIA_IMG_WERECAT_TRAINING_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Werecat_Training.png
 research:
   - name: STR_WERECAT_TAMING
     cost: 45
@@ -118,6 +132,13 @@ armors:
       bravery: 0.2
     drawingRoutine: 10
     allowsKneeling: false
+    scripts:
+      selectUnitSprite: |
+        if eq sprite_index 267;
+          set sprite_index 32;
+        end;
+        add sprite_index sprite_offset;
+        return sprite_index;
     movementType: 0
     recovery:
       morale:
@@ -195,6 +216,13 @@ armors:
       bravery: 0.2
     drawingRoutine: 10
     allowsKneeling: false
+    scripts:
+      selectUnitSprite: |
+        if eq sprite_index 267;
+          set sprite_index 32;
+        end;
+        add sprite_index sprite_offset;
+        return sprite_index;
     movementType: 0
     recovery:
       morale:
@@ -255,18 +283,18 @@ ufopaedia:
   - id: STR_WERECAT_TAMING
     type_id: 7
     section: STR_UFO_COMPONENTS
-    image_id: UFOPEDIA_IMG_WERECAT
+    image_id: UFOPEDIA_IMG_WERECAT_TAMING_CPAL
     text: STR_WERECAT_TAMING_UFOPEDIA
-    text_width: 158
+    text_width: 210
     requires:
       - STR_WERECAT_TAMING
     listOrder: 300033
   - id: STR_WERECAT_TRAINING
     type_id: 7
     section: STR_UFO_COMPONENTS
-    image_id: UFOPEDIA_IMG_WERECAT
+    image_id: UFOPEDIA_IMG_WERECAT_TRAINING_CPAL
     text: STR_WERECAT_TRAINING_UFOPEDIA
-    text_width: 158
+    text_width: 210
     requires:
       - STR_WERECAT_TAMING
     listOrder: 300034
