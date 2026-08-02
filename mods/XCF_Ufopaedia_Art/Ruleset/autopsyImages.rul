@@ -1,4 +1,67 @@
 extraSprites:
+  - type: UFOPEDIA_IMG_WERECAT_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Werecat_Autopsy.png
+
+  - type: UFOPEDIA_IMG_ZOMBIE_STERILE_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Zombie_Autopsy.png
+
+  - type: UFOPEDIA_IMG_CHUPACABRA_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Chupacabra_Autopsy.png
+
+  - type: UFOPEDIA_IMG_FENRIR_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Fenrir_Wolf_Autopsy.png
+
+  - type: UFOPEDIA_IMG_MONGORN_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Mongorn_Autopsy.png
+
+  - type: UFOPEDIA_IMG_WEREWOLF_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Werewolf_Autopsy.png
+
+  - type: UFOPEDIA_IMG_MEGASCORPION_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Megascorpion_Autopsy.png
+
+  - type: UFOPEDIA_IMG_MUCKSTAR_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Muckstar_Autopsy.png
+
+  - type: UFOPEDIA_IMG_SHAMBLER_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Shambler_Autopsy.png
+
   - type: UFOPEDIA_IMG_CHUPACABRA_AUTOPSY
     singleImage: true
     width: 320
@@ -376,3 +439,104 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopaedia/Tutorials/Incendiaries.png
+
+ufopaedia:
+  - delete: STR_WERECAT_AUTOPSY
+  - delete: STR_ZOMBIE_STERILE_AUTOPSY
+  - delete: STR_CHUPACABRA_AUTOPSY
+  - delete: STR_FENRIR_AUTOPSY
+  - delete: STR_MONGORN_AUTOPSY
+  - delete: STR_WEREWOLF_AUTOPSY
+  - delete: STR_MEGASCORPION_AUTOPSY
+  - delete: STR_MUCKSTAR_AUTOPSY
+  - delete: STR_SHAMBLER_AUTOPSY
+
+  - id: STR_WERECAT_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_WERECAT_CORPSE
+    image_id: UFOPEDIA_IMG_WERECAT_AUTOPSY_CPAL
+    text: STR_WERECAT_AUTOPSY_UFOPEDIA
+    text_width: 150
+    listOrder: 161404
+
+  - id: STR_ZOMBIE_STERILE_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ZOMBIE_STERILE_CORPSE
+    image_id: UFOPEDIA_IMG_ZOMBIE_STERILE_AUTOPSY_CPAL
+    text: STR_ZOMBIE_STERILE_AUTOPSY_UFOPEDIA
+    text_width: 149
+    listOrder: 164100
+
+  - id: STR_CHUPACABRA_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CHUPACABRA_CORPSE
+    image_id: UFOPEDIA_IMG_CHUPACABRA_AUTOPSY_CPAL
+    text: STR_CHUPACABRA_AUTOPSY_UFOPEDIA
+    text_width: 150
+    listOrder: 161190
+
+  - id: STR_FENRIR_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_FENRIR_CORPSE
+    image_id: UFOPEDIA_IMG_FENRIR_AUTOPSY_CPAL
+    text: STR_FENRIR_AUTOPSY_UFOPEDIA
+    text_width: 150
+    listOrder: 161310
+
+  - id: STR_MONGORN_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MONGORN_CORPSE
+    image_id: UFOPEDIA_IMG_MONGORN_AUTOPSY_CPAL
+    text: STR_MONGORN_AUTOPSY_UFOPEDIA
+    text_width: 150
+    listOrder: 161323
+
+  - id: STR_WEREWOLF_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_WEREWOLF_CORPSE
+    image_id: UFOPEDIA_IMG_WEREWOLF_AUTOPSY_CPAL
+    text: STR_WEREWOLF_AUTOPSY_UFOPEDIA
+    text_width: 150
+    listOrder: 161380
+
+  - id: STR_MEGASCORPION_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MEGASCORPION_CORPSE
+    image_id: UFOPEDIA_IMG_MEGASCORPION_AUTOPSY_CPAL
+    text: STR_MEGASCORPION_AUTOPSY_UFOPEDIA
+    text_width: 150
+    listOrder: 161130
+
+  - id: STR_MUCKSTAR_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MUCKSTAR_CORPSE
+    image_id: UFOPEDIA_IMG_MUCKSTAR_AUTOPSY_CPAL
+    text: STR_MUCKSTAR_AUTOPSY_UFOPEDIA
+    text_width: 150
+    listOrder: 161230
+
+  - id: STR_SHAMBLER_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SHAMBLER_CORPSE
+    image_id: UFOPEDIA_IMG_SHAMBLER_AUTOPSY_CPAL
+    text: STR_SHAMBLER_AUTOPSY_UFOPEDIA
+    text_width: 150
+    listOrder: 161290

@@ -1,0 +1,75 @@
+extraSprites:
+  - type: UFOPEDIA_IMG_QUARTERMASTER_INTRODUCTION_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Staff/Quartermaster_Introduction.png
+
+  - type: UFOPEDIA_IMG_CHIEF_ACCOUNTANT_INTRODUCTION_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Staff/Chief_Accountant_Introduction.png
+
+  - type: UFOPEDIA_IMG_INTELLIGENCE_OFFICER_INTRODUCTION_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Staff/Intelligence_Officer_Introduction.png
+
+  - type: UFOPEDIA_IMG_CHIEF_MEDICAL_OFFICER_INTRODUCTION_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Staff/Chief_Medical_Officer_Introduction.png
+
+ufopaedia:  # These articles already exist in XComFiles as type 4. OXCE keeps the
+  # original article class when an existing ID is overridden, so remove them
+  # first before recreating them as type 7 (text left, image right).
+  - delete: STR_QUARTERMASTER_INTRODUCTION
+  - delete: STR_CHIEF_ACCOUNTANT_INTRODUCTION
+  - delete: STR_INTELLIGENCE_OFFICER_INTRODUCTION
+  - delete: STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION
+
+  - id: STR_QUARTERMASTER_INTRODUCTION
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_QUARTERMASTER_INTRODUCTION_CPAL
+    text: STR_QUARTERMASTER_INTRODUCTION_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_QUARTERMASTER_INTRODUCTION
+    listOrder: 211210
+
+  - id: STR_CHIEF_ACCOUNTANT_INTRODUCTION
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_CHIEF_ACCOUNTANT_INTRODUCTION_CPAL
+    text: STR_CHIEF_ACCOUNTANT_INTRODUCTION_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_CHIEF_ACCOUNTANT_INTRODUCTION
+    listOrder: 211220
+  - id: STR_INTELLIGENCE_OFFICER_INTRODUCTION
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_INTELLIGENCE_OFFICER_INTRODUCTION_CPAL
+    text: STR_INTELLIGENCE_OFFICER_INTRODUCTION_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_INTELLIGENCE_OFFICER_INTRODUCTION
+    listOrder: 211230
+
+  - id: STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_CHIEF_MEDICAL_OFFICER_INTRODUCTION_CPAL
+    text: STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION
+    listOrder: 211240
