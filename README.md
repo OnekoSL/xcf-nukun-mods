@@ -41,6 +41,7 @@ The repository also stores the install-ready folders under `mods/` for users who
 
 The required palette conversion and validation process for Ufopaedia artwork is
 documented in [docs/UFOPAEDIA_ART_WORKFLOW.md](docs/UFOPAEDIA_ART_WORKFLOW.md).
+The compact, binding checklist is kept in [regel.md](regel.md).
 
 ## Notes
 

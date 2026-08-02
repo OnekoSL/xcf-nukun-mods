@@ -12,6 +12,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopaedia/Autopsy/Zombie_Autopsy.png
+  - type: UFOPEDIA_IMG_ZOMBIE_GRUBAS_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Zombie_Grubas_Autopsy.png
 
   - type: UFOPEDIA_IMG_CHUPACABRA_AUTOPSY_CPAL
     singleImage: true
@@ -443,6 +449,7 @@ extraSprites:
 ufopaedia:
   - delete: STR_WERECAT_AUTOPSY
   - delete: STR_ZOMBIE_STERILE_AUTOPSY
+  - delete: STR_ZOMBIE_GRUBAS_AUTOPSY
   - delete: STR_CHUPACABRA_AUTOPSY
   - delete: STR_FENRIR_AUTOPSY
   - delete: STR_MONGORN_AUTOPSY
@@ -470,6 +477,15 @@ ufopaedia:
     text: STR_ZOMBIE_STERILE_AUTOPSY_UFOPEDIA
     text_width: 149
     listOrder: 164100
+  - id: STR_ZOMBIE_GRUBAS_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ZOMBIE_GRUBAS_CORPSE
+    image_id: UFOPEDIA_IMG_ZOMBIE_GRUBAS_AUTOPSY_CPAL
+    text: STR_ZOMBIE_GRUBAS_AUTOPSY_UFOPEDIA
+    text_width: 153
+    listOrder: 164120
 
   - id: STR_CHUPACABRA_AUTOPSY
     type_id: 7
