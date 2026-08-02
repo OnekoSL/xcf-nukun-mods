@@ -167,76 +167,35 @@ Für die aktuell geprüfte XCF-Version bleiben diese 23 Indizes unverändert:
 Die übrigen 233 Indizes erhalten eine adaptive Palette aus dem neuen Bild.
 Auch hier wird nicht gedithert.
 
-```python
-from PIL import Image
+Die Quantisierungsindizes müssen anschließend direkt auf die 233 freien
+Palettenplätze umnummeriert werden. Mit `quantize(palette=...)` darf das Motiv
+nicht erneut gegen die Gesamtpalette quantisiert werden, weil Pillow dabei
+reservierte UI-Indizes auswählen kann.
 
-fixed = {0, *range(81, 89), *range(240, 250), *range(252, 256)}
-free = [index for index in range(256) if index not in fixed]
+Für CPAL-Bilder ist deshalb das geprüfte Projektwerkzeug verbindlich:
 
-original = Image.open("xcf-original-cpal.png").convert("P")
-original_flat = original.getpalette()
-full_palette = [
-    tuple(original_flat[index * 3:index * 3 + 3])
-    for index in range(256)
-]
-
-adaptive = fitted.quantize(
-    colors=len(free),
-    method=Image.Quantize.MEDIANCUT,
-    dither=Image.Dither.NONE,
-)
-adaptive_flat = adaptive.getpalette()
-used = sorted(set(adaptive.getdata()))
-adaptive_colors = [
-    tuple(adaptive_flat[index * 3:index * 3 + 3])
-    for index in used
-]
-
-for slot, color in zip(free, adaptive_colors):
-    full_palette[slot] = color
-
-palette_holder = Image.new("P", (1, 1))
-palette_holder.putpalette([
-    channel
-    for color in full_palette
-    for channel in color
-])
-
-indexed = fitted.quantize(
-    palette=palette_holder,
-    dither=Image.Dither.NONE,
-)
-indexed.save("replacement.png", format="PNG", optimize=True)
+```powershell
+python artwork/tools/convert_cpal.py source.png replacement.png
 ```
 
-Die reservierten Indizes wurden durch Vergleich von 195 lokalen XCF-CPAL-PNGs
+Die vollständige Kurzregel und alle festen RGB-Werte stehen in `regel.md`.
+
+Die reservierten Indizes wurden durch Vergleich von 196 lokalen XCF-CPAL-PNGs
 ermittelt. Nach größeren XCF-Updates sollte diese Annahme erneut geprüft werden.
 
 ## 5. Transparente Autopsiebilder
 
-Bei den aktuellen Autopsieartikeln ist Palettenindex 0 transparent. Nach dem
-Skalieren muss die komplette linke Textfläche auf Schwarz gesetzt werden, damit
-sie bei der Quantisierung sicher Index 0 erhält.
+Bei Autopsieartikeln kann Palettenindex 0 transparent sein. Diese Ausnahme
+wird nur verwendet, wenn das konkrete Ersatzbild bewusst eine transparente
+Textfläche benötigt. Dann wird die komplette linke Textfläche direkt auf Index
+0 gesetzt und die PNG mit `transparency=0` gespeichert.
 
-```python
-for y in range(200):
-    for x in range(158):
-        fitted.putpixel((x, y), (0, 0, 0))
-
-indexed = fitted.quantize(
-    palette=palette_image,
-    dither=Image.Dither.NONE,
-)
-indexed.save(
-    "replacement.png",
-    format="PNG",
-    transparency=0,
-    optimize=True,
-)
+```powershell
+python artwork/tools/convert_cpal.py source.png replacement.png --transparent-left 158
 ```
 
-Normale ganzflächige Berichtsillustrationen erhalten keine Transparenz, sofern
-das jeweilige XCF-Original ebenfalls keine besitzt.
+Ganzflächige Autopsie- und Berichtsillustrationen erhalten keine Transparenz.
+Die Transparenz darf niemals allein aufgrund des Dateinamens angenommen werden.
 
 ## 6. Ruleset ergänzen
 
@@ -286,7 +245,8 @@ Zusätzlich prüfen:
 - Transparenz entspricht dem Original.
 - Bei Standardbildern stimmt die gesamte Palette mit dem Original überein.
 - Bei `_CPAL` stimmen die 23 reservierten UI-Indizes mit dem Original überein.
-- Autopsien verwenden in der gesamten linken Textfläche Index 0.
+- Transparente Autopsien verwenden in der linken Textflaeche Index 0;
+  ganzflaechige Autopsien nicht.
 - Alle Ruleset-Pfade verweisen auf vorhandene Dateien.
 - Checkout und aktiver Mod enthalten byte-identische Kopien.
 - `git diff --check` meldet keine Fehler.
