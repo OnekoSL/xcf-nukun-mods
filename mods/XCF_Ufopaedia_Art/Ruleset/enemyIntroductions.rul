@@ -40,6 +40,36 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopaedia/Enemies/EXALT_Infiltrator.png
+  - type: XCF_UFOPEDIA_IMG_ZSRR_PIONEER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/ZSRR_Pioneer.png
+  - type: UFOPEDIA_IMG_DISCIPLE_OF_DAGON_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/Dagon_Disciple.png
+  - type: UFOPEDIA_IMG_BLACK_LOTUS_FOOTMAN_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/Black_Lotus_Footman.png
+  - type: UFOPEDIA_IMG_EXALT_GOON_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/EXALT_Goon.png
+  - type: UFOPEDIA_IMG_EXALT_LIQUIDATOR_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/EXALT_Liquidator.png
 
 ufopaedia:
   - delete: STR_FARMER
@@ -48,6 +78,12 @@ ufopaedia:
   - delete: STR_BLACK_LOTUS_FOLLOWER
   - delete: STR_ZSRR_GANGER
   - delete: STR_EXALT_INFILTRATOR
+  - delete: STR_ZSRR_PIONEER
+  - delete: STR_DISCIPLE_OF_DAGON
+  - delete: STR_BLACK_LOTUS_FOOTMAN
+  - delete: STR_EXALT_GOON
+  - delete: STR_EXALT_LIQUIDATOR
+
 
   - id: STR_FARMER
     type_id: 7
@@ -108,3 +144,48 @@ ufopaedia:
     requires:
       - STR_EXALT_INFILTRATOR
     listOrder: 150300
+  - id: STR_ZSRR_PIONEER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: XCF_UFOPEDIA_IMG_ZSRR_PIONEER
+    text: STR_ZSRR_PIONEER_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZSRR_PIONEER
+    listOrder: 150214
+  - id: STR_DISCIPLE_OF_DAGON
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_DISCIPLE_OF_DAGON_REPORT_CPAL
+    text: STR_DISCIPLE_OF_DAGON_UFOPEDIA
+    text_width: 160
+    requires:
+      - STR_DISCIPLE_OF_DAGON
+    listOrder: 149980
+  - id: STR_BLACK_LOTUS_FOOTMAN
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_BLACK_LOTUS_FOOTMAN_REPORT_CPAL
+    text: STR_BLACK_LOTUS_FOOTMAN_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_BLACK_LOTUS_FOOTMAN
+    listOrder: 150105
+  - id: STR_EXALT_GOON
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_EXALT_GOON_REPORT_CPAL
+    text: STR_EXALT_GOON_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_EXALT_GOON
+    listOrder: 150310
+  - id: STR_EXALT_LIQUIDATOR
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UFOPEDIA_IMG_EXALT_LIQUIDATOR_REPORT_CPAL
+    text: STR_EXALT_LIQUIDATOR_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_EXALT_LIQUIDATOR
+    listOrder: 150325

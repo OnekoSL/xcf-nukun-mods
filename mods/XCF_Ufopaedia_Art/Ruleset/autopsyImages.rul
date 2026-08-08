@@ -67,6 +67,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopaedia/Autopsy/Shambler_Autopsy.png
+  - type: UFOPEDIA_IMG_GILLDOG_AUTOPSY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Gilldog_Autopsy.png
 
   - type: UFOPEDIA_IMG_CHUPACABRA_AUTOPSY
     singleImage: true
@@ -74,6 +80,13 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopaedia/Autopsy/Chupacabra_Autopsy.png
+
+  - type: UFOPEDIA_IMG_GIANT_SPIDER_AUTOPSY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Autopsy/Giant_Spider_Autopsy.png
 
   - type: UFOPEDIA_IMG_ASMODEAN_COBRA_AUTOPSY
     singleImage: true
@@ -457,6 +470,7 @@ ufopaedia:
   - delete: STR_MEGASCORPION_AUTOPSY
   - delete: STR_MUCKSTAR_AUTOPSY
   - delete: STR_SHAMBLER_AUTOPSY
+  - delete: STR_GILLDOG_AUTOPSY
 
   - id: STR_WERECAT_AUTOPSY
     type_id: 7
@@ -556,3 +570,12 @@ ufopaedia:
     text: STR_SHAMBLER_AUTOPSY_UFOPEDIA
     text_width: 150
     listOrder: 161290
+  - id: STR_GILLDOG_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_GILLDOG_CORPSE
+    image_id: UFOPEDIA_IMG_GILLDOG_AUTOPSY_CPAL
+    text: STR_GILLDOG_AUTOPSY_UFOPEDIA
+    text_width: 150
+    listOrder: 161350

@@ -1,0 +1,73 @@
+extraSprites:
+  - type: XCF_UFOPEDIA_IMG_CYBERINVESTIGATIONS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Cyber_Investigations.png
+
+  - type: XCF_UFOPEDIA_IMG_XCOM_PERSONNEL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/XCom_Personnel.png
+
+  - type: XCF_UFOPEDIA_IMG_PUBLIC_TRANSPORT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Vehicles/Public_Transport.png
+
+  - type: XCF_UFOPEDIA_IMG_PRIVATE_TRANSPORT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Vehicles/Private_Transport.png
+
+ufopaedia:
+  - delete: STR_CYBERINVESTIGATIONS
+  - delete: STR_XCOM_PERSONNEL
+  - delete: STR_PUBLIC_TRANSPORT
+  - delete: STR_PRIVATE_TRANSPORT
+
+  - id: STR_XCOM_PERSONNEL
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_XCOM_PERSONNEL
+    text: STR_XCOM_PERSONNEL_UFOPEDIA
+    text_width: 308
+    align_bottom: true
+    listOrder: 780
+
+  - id: STR_PUBLIC_TRANSPORT
+    type_id: 7
+    image_id: XCF_UFOPEDIA_IMG_PUBLIC_TRANSPORT
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_PUBLIC_TRANSPORT_UFOPEDIA
+    text_width: 300
+    align_bottom: true
+    listOrder: 300319
+
+  - id: STR_PRIVATE_TRANSPORT
+    type_id: 7
+    image_id: XCF_UFOPEDIA_IMG_PRIVATE_TRANSPORT
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_PRIVATE_TRANSPORT
+    text: STR_PRIVATE_TRANSPORT_UFOPEDIA
+    text_width: 300
+    align_bottom: true
+    listOrder: 300331
+
+  - id: STR_CYBERINVESTIGATIONS
+    type_id: 7
+    image_id: XCF_UFOPEDIA_IMG_CYBERINVESTIGATIONS_CPAL
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_CYBERINVESTIGATIONS_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_CYBERINVESTIGATIONS
+    listOrder: 300335

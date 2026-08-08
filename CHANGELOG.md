@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added a replacement Giant Spider autopsy illustration and refreshed the
+  Asmodean Cobra autopsy illustration.
 - Added `XCF_Ufopaedia_Art` with replacement autopsy illustrations for the
   Chupacabra, Asmodeus Cobra, Fenrir Wolf, and Werecat.
 - Added replacement report illustrations for X-Com Origins, Kiryu-Kai,

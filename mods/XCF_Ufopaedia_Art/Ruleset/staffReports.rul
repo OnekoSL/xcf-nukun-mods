@@ -20,6 +20,13 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/StaffReports/Staff_019_Medical_Advice.png
 
+  - type: UFOPEDIA_IMG_STAFF_032_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_032_Reading_Manuals.png
+
   - type: UFOPEDIA_IMG_STAFF_039_CPAL
     singleImage: true
     width: 320
@@ -33,6 +40,7 @@ ufopaedia:
   - delete: STR_STAFF_002
   - delete: STR_STAFF_012
   - delete: STR_STAFF_019
+  - delete: STR_STAFF_032
   - delete: STR_STAFF_039
 
   - id: STR_STAFF_002
@@ -64,6 +72,16 @@ ufopaedia:
     requires:
       - STR_STAFF_019
     listOrder: 284190
+
+  - id: STR_STAFF_032
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_032_CPAL
+    text: STR_STAFF_032_UFOPEDIA
+    text_width: 250
+    requires:
+      - STR_STAFF_032
+    listOrder: 284320
 
   - id: STR_STAFF_039
     type_id: 7
