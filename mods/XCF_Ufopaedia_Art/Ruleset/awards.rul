@@ -1,0 +1,332 @@
+extraSprites:
+  - type: XCF_UFOPEDIA_IMG_MEDAL_ORIGINAL_8
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_ORIGINAL_8.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_SERVICE_TIME
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_SERVICE_TIME.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_STATGAIN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_STATGAIN.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_CARREER_MISSIONS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_CARREER_MISSIONS.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_NIGHTOPS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_NIGHTOPS.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_INFILTRATOR_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_INFILTRATOR_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_CARREER_CAPTURES_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_CARREER_CAPTURES_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_WEAPON_PROFICIENCY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_WEAPON_PROFICIENCY.png
+
+  - type: XCF_UFOPEDIA_IMG_MEDAL_REACTIONFIRE_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_REACTIONFIRE_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_LUCKYSHOT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_LUCKYSHOT_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_MISSION_KILLS_5_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_MISSION_KILLS_5_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_DBLKILL_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_DBLKILL_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_PURPLE_HEART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_PURPLE_HEART_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_CRIMSON_HEART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_CRIMSON_HEART_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_SAVEDALL_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_SAVEDALL_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_MONSTER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_MONSTER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_INCAPACITATOR_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_INCAPACITATOR_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_SHOTGUN_SURGEON_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_SHOTGUN_SURGEON_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_TROOPER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_TROOPER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_TASEMASTER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_TASEMASTER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_RACE_KILLS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_RACE_KILLS_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_SUPPRESSOR_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_SUPPRESSOR_CPAL.png
+ufopaedia:
+  - delete: STR_MEDAL_ORIGINAL8_NAME
+  - delete: STR_MEDAL_SERVICE_TIME_NAME
+  - delete: STR_MEDAL_STATGAIN_NAME
+  - delete: STR_MEDAL_CARREER_MISSIONS_NAME
+  - delete: STR_MEDAL_NIGHTOPS_NAME
+  - delete: STR_MEDAL_INFILTRATOR_NAME
+  - delete: STR_MEDAL_CARREER_CAPTURES_NAME
+  - delete: STR_MEDAL_WEAPON_PROFICIENCY_NAME
+  - delete: STR_MEDAL_REACTIONFIRE_NAME
+  - delete: STR_MEDAL_LUCKYSHOT_NAME
+  - delete: STR_MEDAL_MISSION_KILLS_5_NAME
+  - delete: STR_MEDAL_DBLKILL_NAME
+  - delete: STR_MEDAL_PURPLE_HEART_NAME
+  - delete: STR_MEDAL_CRIMSON_HEART_NAME
+  - delete: STR_MEDAL_SAVEDALL_NAME
+  - delete: STR_MEDAL_MONSTER_NAME
+  - delete: STR_MEDAL_INCAPACITATOR_NAME
+  - delete: STR_MEDAL_SHOTGUN_SURGEON_NAME
+  - delete: STR_MEDAL_TROOPER_NAME
+  - delete: STR_MEDAL_TASEMASTER_NAME
+  - delete: STR_MEDAL_RACE_KILLS_NAME
+  - delete: STR_MEDAL_SUPPRESSOR_NAME
+  - id: STR_MEDAL_ORIGINAL8_NAME
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_ORIGINAL_8
+    text: STR_MEDAL_ORIGINAL8_UFOPEDIA
+    text_width: 158
+    listOrder: 360000
+  - id: STR_MEDAL_SERVICE_TIME_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_SERVICE_TIME
+    text: STR_MEDAL_SERVICE_TIME_UFOPEDIA
+    text_width: 158
+    listOrder: 360010
+  - id: STR_MEDAL_STATGAIN_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_STATGAIN
+    text: STR_MEDAL_STATGAIN_UFOPEDIA
+    text_width: 158
+    listOrder: 360015
+  - id: STR_MEDAL_CARREER_MISSIONS_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_CARREER_MISSIONS
+    text: STR_MEDAL_CARREER_MISSIONS_UFOPEDIA
+    text_width: 158
+    listOrder: 360025
+  - id: STR_MEDAL_NIGHTOPS_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_NIGHTOPS
+    text: STR_MEDAL_NIGHTOPS_UFOPEDIA
+    text_width: 158
+    listOrder: 360050
+  - id: STR_MEDAL_INFILTRATOR_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_INFILTRATOR_CPAL
+    text: STR_MEDAL_INFILTRATOR_UFOPEDIA
+    text_width: 158
+    listOrder: 360078
+  - id: STR_MEDAL_CARREER_CAPTURES_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_CARREER_CAPTURES_CPAL
+    text: STR_MEDAL_CARREER_CAPTURES_UFOPEDIA
+    text_width: 158
+    listOrder: 360115
+  - id: STR_MEDAL_WEAPON_PROFICIENCY_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_WEAPON_PROFICIENCY
+    text: STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA
+    text_width: 158
+    listOrder: 360150
+  - id: STR_MEDAL_REACTIONFIRE_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_REACTIONFIRE_CPAL
+    text: STR_MEDAL_REACTIONFIRE_UFOPEDIA
+    text_width: 158
+    listOrder: 360165
+  - id: STR_MEDAL_LUCKYSHOT_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_LUCKYSHOT_CPAL
+    text: STR_MEDAL_LUCKYSHOT_UFOPEDIA
+    text_width: 158
+    listOrder: 360168
+  - id: STR_MEDAL_MISSION_KILLS_5_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_MISSION_KILLS_5_CPAL
+    text: STR_MEDAL_MISSION_KILLS_5_UFOPEDIA
+    text_width: 158
+    listOrder: 360170
+  - id: STR_MEDAL_DBLKILL_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_DBLKILL_CPAL
+    text: STR_MEDAL_DBLKILL_UFOPEDIA
+    text_width: 158
+    listOrder: 360200
+  - id: STR_MEDAL_PURPLE_HEART_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_PURPLE_HEART_CPAL
+    text: STR_MEDAL_PURPLE_HEART_UFOPEDIA
+    text_width: 158
+    listOrder: 360240
+  - id: STR_MEDAL_CRIMSON_HEART_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_CRIMSON_HEART_CPAL
+    text: STR_MEDAL_CRIMSON_HEART_UFOPEDIA
+    text_width: 158
+    listOrder: 360245
+  - id: STR_MEDAL_SAVEDALL_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_SAVEDALL_CPAL
+    text: STR_MEDAL_SAVEDALL_UFOPEDIA
+    text_width: 158
+    listOrder: 360260
+  - id: STR_MEDAL_MONSTER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_MONSTER_CPAL
+    text: STR_MEDAL_MONSTER_UFOPEDIA
+    text_width: 158
+    listOrder: 360330
+  - id: STR_MEDAL_INCAPACITATOR_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_INCAPACITATOR_CPAL
+    text: STR_MEDAL_INCAPACITATOR_UFOPEDIA
+    text_width: 158
+    listOrder: 360338
+  - id: STR_MEDAL_SHOTGUN_SURGEON_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_SHOTGUN_SURGEON_CPAL
+    text: STR_MEDAL_SHOTGUN_SURGEON_UFOPEDIA
+    text_width: 158
+    listOrder: 360355
+  - id: STR_MEDAL_TROOPER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_TROOPER_CPAL
+    text: STR_MEDAL_TROOPER_UFOPEDIA
+    text_width: 158
+    listOrder: 360360
+  - id: STR_MEDAL_TASEMASTER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_TASEMASTER_CPAL
+    text: STR_MEDAL_TASEMASTER_UFOPEDIA
+    text_width: 158
+    listOrder: 360410
+  - id: STR_MEDAL_RACE_KILLS_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_RACE_KILLS_CPAL
+    text: STR_MEDAL_RACE_KILLS_UFOPEDIA
+    text_width: 158
+    listOrder: 360130
+  - id: STR_MEDAL_SUPPRESSOR_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_SUPPRESSOR_CPAL
+    text: STR_MEDAL_SUPPRESSOR_UFOPEDIA
+    text_width: 158
+    listOrder: 360412

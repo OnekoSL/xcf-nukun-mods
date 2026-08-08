@@ -1,0 +1,70 @@
+extraSprites:
+  - type: XCF_UFOPEDIA_IMG_COVER_SPORTSMEN_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Cover_Sportsmen.png
+
+  - type: XCF_UFOPEDIA_IMG_COVER_SURFERS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Cover_Surfers.png
+
+  - type: XCF_UFOPEDIA_IMG_HOTKEYS_GEOSCAPE_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Hotkeys_Geoscape.png
+
+  - type: XCF_UFOPEDIA_IMG_HOTKEYS_BATTLESCAPE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Hotkeys_Battlescape.png
+
+ufopaedia:
+  - delete: STR_COVER_SPORTSMEN
+  - delete: STR_COVER_SURFERS
+  - delete: STR_HOTKEYS_GEOSCAPE
+  - delete: STR_HOTKEYS_BATTLESCAPE
+
+  - id: STR_COVER_SPORTSMEN
+    type_id: 7
+    image_id: XCF_UFOPEDIA_IMG_COVER_SPORTSMEN_CPAL
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_COVER_SPORTSMEN_UFOPEDIA
+    text_width: 140
+    requires:
+      - STR_COVER_SPORTSMEN
+    listOrder: 340000
+
+  - id: STR_COVER_SURFERS
+    type_id: 7
+    image_id: XCF_UFOPEDIA_IMG_COVER_SURFERS_CPAL
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_COVER_SURFERS_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_COVER_SURFERS
+    listOrder: 340100
+
+  - id: STR_HOTKEYS_GEOSCAPE
+    type_id: 7
+    section: STR_TUTORIALS_UC
+    image_id: XCF_UFOPEDIA_IMG_HOTKEYS_GEOSCAPE_CPAL
+    text: STR_HOTKEYS_GEOSCAPE_UFOPEDIA
+    text_width: 140
+    listOrder: 800000
+
+  - id: STR_HOTKEYS_BATTLESCAPE
+    type_id: 7
+    section: STR_TUTORIALS_UC
+    image_id: XCF_UFOPEDIA_IMG_HOTKEYS_BATTLESCAPE
+    text: STR_HOTKEYS_BATTLESCAPE_UFOPEDIA
+    text_width: 154
+    listOrder: 800010

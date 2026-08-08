@@ -27,7 +27,15 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Staff/Chief_Medical_Officer_Introduction.png
 
-ufopaedia:  # These articles already exist in XComFiles as type 4. OXCE keeps the
+  - type: UFOPEDIA_IMG_XENOLOGIST_CONTACT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Staff/Xenologist_Introduction.png
+
+ufopaedia:
+  - delete: STR_XENOLOGIST_CONTACT  # These articles already exist in XComFiles as type 4. OXCE keeps the
   # original article class when an existing ID is overridden, so remove them
   # first before recreating them as type 7 (text left, image right).
   - delete: STR_QUARTERMASTER_INTRODUCTION
@@ -73,3 +81,13 @@ ufopaedia:  # These articles already exist in XComFiles as type 4. OXCE keeps th
     requires:
       - STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION
     listOrder: 211240
+
+  - id: STR_XENOLOGIST_CONTACT
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_XENOLOGIST_CONTACT_CPAL
+    text: STR_XENOLOGIST_CONTACT_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_XENOLOGIST_CONTACT
+    listOrder: 211260

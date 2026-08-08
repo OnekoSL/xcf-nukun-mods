@@ -13,9 +13,33 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Dossiers/CHAD.png
 
+  - type: DOSSIER_PURPLE_LILLY_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Purple_Lilly.png
+
+  - type: DOSSIER_ANTONIO_BIANCHI_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Antonio_Bianchi.png
+
+  - type: DOSSIER_MILLER_AND_SMITH_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Miller_and_Smith.png
+
 ufopaedia:
   - delete: STR_DOSSIER_THOMAS_ERICKSON
   - delete: STR_DOSSIER_CHAD
+  - delete: STR_DOSSIER_PURPLE_LILLY
+  - delete: STR_DOSSIER_ANTONIO_BIANCHI
+  - delete: STR_DOSSIER_MILLER_AND_SMITH
 
   - id: STR_DOSSIER_THOMAS_ERICKSON
     type_id: 7
@@ -36,3 +60,32 @@ ufopaedia:
     requires:
       - STR_DOSSIER_CHAD
     listOrder: 281100
+  - id: STR_DOSSIER_PURPLE_LILLY
+    type_id: 7
+    image_id: DOSSIER_PURPLE_LILLY_REPORT_CPAL
+    text_width: 160
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_PURPLE_LILLY_UFOPEDIA
+    requires:
+      - STR_DOSSIER_PURPLE_LILLY
+    listOrder: 269100
+
+  - id: STR_DOSSIER_ANTONIO_BIANCHI
+    type_id: 7
+    image_id: DOSSIER_ANTONIO_BIANCHI_REPORT_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_ANTONIO_BIANCHI_UFOPEDIA
+    requires:
+      - STR_DOSSIER_ANTONIO_BIANCHI
+    listOrder: 270490
+
+  - id: STR_DOSSIER_MILLER_AND_SMITH
+    type_id: 7
+    image_id: DOSSIER_MILLER_AND_SMITH_REPORT_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_MILLER_AND_SMITH_UFOPEDIA
+    requires:
+      - STR_DOSSIER_MILLER_AND_SMITH
+    listOrder: 273500
