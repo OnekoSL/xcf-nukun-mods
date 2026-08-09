@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Added narrative organization illustrations for Red Dawn and EXALT.
+- Added narrative organization illustrations for the Council of Earth, Church
+  of Dagon, and Black Lotus.
+- Added replacement dossier illustrations for Lydia Lux, Baba Donka, and
+  Harley Stone.
 - Added a replacement Giant Spider autopsy illustration and refreshed the
   Asmodean Cobra autopsy illustration.
 - Added `XCF_Ufopaedia_Art` with replacement autopsy illustrations for the
