@@ -33,6 +33,26 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopaedia/Dossiers/Miller_and_Smith.png
+  - type: DOSSIER_LYDIA_LUX_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Lydia_Lux.png
+
+  - type: DOSSIER_BABA_DONKA_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Baba_Donka.png
+
+  - type: DOSSIER_HARLEY_STONE_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Harley_Stone.png
 
 ufopaedia:
   - delete: STR_DOSSIER_THOMAS_ERICKSON
@@ -40,6 +60,9 @@ ufopaedia:
   - delete: STR_DOSSIER_PURPLE_LILLY
   - delete: STR_DOSSIER_ANTONIO_BIANCHI
   - delete: STR_DOSSIER_MILLER_AND_SMITH
+  - delete: STR_DOSSIER_LYDIA_LUX
+  - delete: STR_DOSSIER_BABA_DONKA
+  - delete: STR_DOSSIER_HARLEY_STONE
 
   - id: STR_DOSSIER_THOMAS_ERICKSON
     type_id: 7
@@ -89,3 +112,32 @@ ufopaedia:
     requires:
       - STR_DOSSIER_MILLER_AND_SMITH
     listOrder: 273500
+  - id: STR_DOSSIER_LYDIA_LUX
+    type_id: 7
+    image_id: DOSSIER_LYDIA_LUX_REPORT_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_LYDIA_LUX_UFOPEDIA
+    requires:
+      - STR_DOSSIER_LYDIA_LUX
+    listOrder: 273510
+
+  - id: STR_DOSSIER_BABA_DONKA
+    type_id: 7
+    image_id: DOSSIER_BABA_DONKA_REPORT_CPAL
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_BABA_DONKA_UFOPEDIA
+    requires:
+      - STR_DOSSIER_BABA_DONKA
+    listOrder: 278070
+
+  - id: STR_DOSSIER_HARLEY_STONE
+    type_id: 7
+    image_id: DOSSIER_HARLEY_STONE_REPORT_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_HARLEY_STONE_UFOPEDIA
+    requires:
+      - STR_DOSSIER_HARLEY_STONE
+    listOrder: 278390

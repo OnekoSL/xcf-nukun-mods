@@ -6,8 +6,48 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Reports/Council_Salvage_Corps.png
 
+  - type: UFOPEDIA_IMG_COUNCIL_OF_EARTH_REPLACEMENT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Organizations/Council_of_Earth.png
+
+  - type: UFOPEDIA_IMG_CHURCH_OF_DAGON_REPLACEMENT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Organizations/Church_of_Dagon.png
+
+  - type: UFOPEDIA_IMG_BLACK_LOTUS_REPLACEMENT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Organizations/Black_Lotus.png
+
+  - type: UFOPEDIA_IMG_RED_DAWN_REPLACEMENT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Organizations/Red_Dawn.png
+
+  - type: UFOPEDIA_IMG_EXALT_REPLACEMENT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Organizations/EXALT.png
+
 ufopaedia:
   - delete: STR_COUNCIL_SALVAGE_CORPS
+  - delete: STR_COUNCIL_OF_EARTH
+  - delete: STR_CHURCH_OF_DAGON
+  - delete: STR_BLACK_LOTUS
+  - delete: STR_ZSRR
+  - delete: STR_EXALT
 
   - id: STR_COUNCIL_SALVAGE_CORPS
     type_id: 7
@@ -16,3 +56,56 @@ ufopaedia:
     text: STR_COUNCIL_SALVAGE_CORPS_UFOPEDIA
     text_width: 158
     listOrder: 300000
+  - id: STR_COUNCIL_OF_EARTH
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_COUNCIL_OF_EARTH
+    image_id: UFOPEDIA_IMG_COUNCIL_OF_EARTH_REPLACEMENT_CPAL
+    text: STR_COUNCIL_OF_EARTH_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    listOrder: 176755
+
+  - id: STR_CHURCH_OF_DAGON
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_CHURCH_OF_DAGON_REPLACEMENT_CPAL
+    text: STR_CHURCH_OF_DAGON_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    requires:
+      - STR_CHURCH_OF_DAGON
+    listOrder: 179990
+
+  - id: STR_BLACK_LOTUS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_BLACK_LOTUS_REPLACEMENT_CPAL
+    text: STR_BLACK_LOTUS_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    requires:
+      - STR_BLACK_LOTUS
+    listOrder: 180090
+  - id: STR_ZSRR
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_RED_DAWN_REPLACEMENT_CPAL
+    text: STR_ZSRR_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    requires:
+      - STR_ZSRR
+    listOrder: 180190
+
+  - id: STR_EXALT
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_EXALT_REPLACEMENT_CPAL
+    text: STR_EXALT_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    requires:
+      - STR_EXALT
+    listOrder: 180290
