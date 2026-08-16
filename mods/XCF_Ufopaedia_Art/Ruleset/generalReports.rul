@@ -27,11 +27,29 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Vehicles/Private_Transport.png
 
+  - type: XCF_UFOPEDIA_IMG_ALIEN_ABDUCTION_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Alien_Abduction.png
+
 ufopaedia:
   - delete: STR_CYBERINVESTIGATIONS
   - delete: STR_XCOM_PERSONNEL
   - delete: STR_PUBLIC_TRANSPORT
   - delete: STR_PRIVATE_TRANSPORT
+  - delete: STR_ALIEN_ABDUCTION
+
+  - id: STR_ALIEN_ABDUCTION
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_ALIEN_ABDUCTION_CPAL
+    requires:
+      - STR_ALIEN_ABDUCTION
+    text: STR_ALIEN_ABDUCTION_UFOPEDIA
+    text_width: 154
+    listOrder: 168420
 
   - id: STR_XCOM_PERSONNEL
     type_id: 7

@@ -41,6 +41,34 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Organizations/EXALT.png
 
+  - type: XCF_UFOPEDIA_IMG_RED_DAWN_BIO_ENHANCEMENT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Organizations/Red_Dawn_Bio_Enhancement.png
+
+  - type: XCF_UFOPEDIA_IMG_EXALT_NETWORK_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Organizations/EXALT_Network.png
+
+  - type: XCF_UFOPEDIA_IMG_CHURCH_OF_DAGON_NETWORK_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Organizations/Church_of_Dagon_Network.png
+
+  - type: XCF_UFOPEDIA_IMG_COUNCIL_POWER_CHAIN_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Organizations/Council_Power_Chain.png
+
 ufopaedia:
   - delete: STR_COUNCIL_SALVAGE_CORPS
   - delete: STR_COUNCIL_OF_EARTH
@@ -48,6 +76,51 @@ ufopaedia:
   - delete: STR_BLACK_LOTUS
   - delete: STR_ZSRR
   - delete: STR_EXALT
+  - delete: STR_ZSRR_BIO_ENHANCEMENT
+  - delete: STR_EXALT_NETWORK
+  - delete: STR_CHURCH_OF_DAGON_NETWORK
+  - delete: STR_COUNCIL_POWER_CHAIN
+
+  - id: STR_ZSRR_BIO_ENHANCEMENT
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_RED_DAWN_BIO_ENHANCEMENT_CPAL
+    text: STR_ZSRR_BIO_ENHANCEMENT_UFOPEDIA
+    text_width: 165
+    requires:
+      - STR_ZSRR_BIO_ENHANCEMENT
+    listOrder: 202000
+
+  - id: STR_EXALT_NETWORK
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_EXALT_NETWORK_CPAL
+    text: STR_EXALT_NETWORK_UFOPEDIA
+    text_width: 165
+    requires:
+      - STR_EXALT_NETWORK
+    listOrder: 180300
+
+  - id: STR_CHURCH_OF_DAGON_NETWORK
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_CHURCH_OF_DAGON_NETWORK_CPAL
+    text: STR_CHURCH_OF_DAGON_NETWORK_UFOPEDIA
+    text_width: 165
+    requires:
+      - STR_CHURCH_OF_DAGON_NETWORK
+    listOrder: 180000
+
+  - id: STR_COUNCIL_POWER_CHAIN
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_COUNCIL_POWER_CHAIN_CPAL
+    text: STR_COUNCIL_POWER_CHAIN_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    requires:
+      - STR_COUNCIL_POWER_CHAIN
+    listOrder: 176760
 
   - id: STR_COUNCIL_SALVAGE_CORPS
     type_id: 7

@@ -68,6 +68,27 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Reports/Found_Items.png
 
+  - type: XCF_UFOPEDIA_IMG_MILESTONE_1_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/XCom_Log_Report_1.png
+
+  - type: XCF_UFOPEDIA_IMG_MILESTONE_1_SUMMARY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Promotion_1.png
+
+  - type: XCF_UFOPEDIA_IMG_REQUESTING_VETERAN_AGENTS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Requesting_Veteran_Agents.png
+
 ufopaedia:
   # XComFiles defines these as type 4. Delete them first so OXCE recreates
   # the correct type-7 article class (text left, image right).
@@ -81,6 +102,42 @@ ufopaedia:
   - delete: STR_TRANSPORT_ALTERNATIVE
   - delete: STR_XCOM_FLYERS
   - delete: STR_FOUND_ITEMS
+  - delete: STR_MILESTONE_1
+  - delete: STR_MILESTONE_1_SUMMARY
+  - delete: STR_REQUESTING_VETERAN_AGENTS
+
+  - id: STR_MILESTONE_1
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_MILESTONE_1_CPAL
+    text: STR_MILESTONE_1_UFOPEDIA
+    text_width: 315
+    align_bottom: true
+    requires:
+      - STR_MILESTONE_1
+    listOrder: 700
+
+  - id: STR_MILESTONE_1_SUMMARY
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_MILESTONE_1_SUMMARY_CPAL
+    text: STR_MILESTONE_1_SUMMARY_UFOPEDIA
+    text_width: 315
+    align_bottom: true
+    requires:
+      - STR_MILESTONE_1_SUMMARY
+    listOrder: 710
+
+  - id: STR_REQUESTING_VETERAN_AGENTS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_REQUESTING_VETERAN_AGENTS_CPAL
+    text: STR_REQUESTING_VETERAN_AGENTS_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    requires:
+      - STR_REQUESTING_VETERAN_AGENTS
+    listOrder: 880
 
   - id: STR_WHAT_DO_NOW_MILESTONE_0
     type_id: 7

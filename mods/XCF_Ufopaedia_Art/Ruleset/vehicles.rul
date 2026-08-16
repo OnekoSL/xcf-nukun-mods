@@ -1,0 +1,29 @@
+extraSprites:
+  - type: XCF_UFOPEDIA_IMG_HELICOPTER_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Vehicles/Helicopter.png
+
+ufopaedia:
+  - delete: STR_HELICOPTER
+
+  - id: STR_HELICOPTER
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: XCF_UFOPEDIA_IMG_HELICOPTER_REPORT_CPAL
+    rect_stats:
+      x: 200
+      y: 130
+      width: 160
+      height: 56
+    rect_text:
+      x: 5
+      y: 40
+      width: 100
+      height: 160
+    text: STR_HELICOPTER_UFOPEDIA
+    requires:
+      - STR_HELICOPTER
+    listOrder: 7370

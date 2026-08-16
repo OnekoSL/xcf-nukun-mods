@@ -5,6 +5,7 @@ Small optional submods for The X-Com Files on OpenXcom Extended.
 ## Included Mods
 
 - `XCF_DE_Complete`: consolidated German translation overlay for X-Com Files.
+- `XCF_Earth_Polish`: satellite-inspired replacement for the Geoscape terrain atlas.
 - `XCF_Namepack_Extra`: expanded Latin-script name pools for agents, dogs, rats, bats, and AI units.
 - `XCF_PersonalTweaks`: conservative early-game and starting-base adjustments.
 - `XCF_Ufopaedia_Art`: replacement Ufopaedia illustrations.
@@ -21,13 +22,14 @@ This repository does not include The X-Com Files itself.
 ## Installation
 
 1. Download the latest release ZIP.
-2. Extract the five mod folders into your OpenXcom `mods` directory.
+2. Extract the six mod folders into your OpenXcom `mods` directory.
 3. Start OpenXcom Extended and enable the mods after `x-com-files`.
 
 Recommended order:
 
 ```text
 x-com-files
+XCF-Earth-Polish
 XCF-DE-Complete
 XCF-PersonalTweaks
 XCF-Namepack-Extra
@@ -43,11 +45,17 @@ The required palette conversion and validation process for Ufopaedia artwork is
 documented in [docs/UFOPAEDIA_ART_WORKFLOW.md](docs/UFOPAEDIA_ART_WORKFLOW.md).
 The compact, binding checklist is kept in [regel.md](regel.md).
 
+The reproducible NASA-to-Geoscape workflow for `XCF_Earth_Polish` is
+documented in [docs/EARTH_POLISH_WORKFLOW.md](docs/EARTH_POLISH_WORKFLOW.md).
+
 ## Notes
 
 - These mods are intended as small overlays, not as a replacement for X-Com Files.
 - Generated install-ready data is included for convenience.
 - `XCF_Ufopaedia_Art` contains replacement artwork only; no original X-Com Files images are redistributed.
+- `XCF_Earth_Polish` should load after `x-com-files`. It is mutually exclusive
+  with other mods that replace `TEXTURE.DAT`; it does not change oceans, UI,
+  markers, globe geometry, countries, regions, cities, or mission logic.
 - Local helper scripts from the working OpenXcom folder are not included in the installable mod folders.
 
 ## License

@@ -21,6 +21,22 @@ These mods target OpenXcom Extended metadata and ruleset behavior.
 
 OpenXcom Extended itself is not included in this repository.
 
+## NASA Blue Marble Next Generation
+
+`XCF_Earth_Polish` contains derived terrain textures made from NASA Earth
+Observatory's *Blue Marble Next Generation: Topography and Bathymetry*,
+January.
+
+- Provider: NASA Earth Observatory
+- Source record: https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/
+- Source asset: https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/january/world.topo.bathy.200401.3x5400x2700.jpg
+- NASA media guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/
+
+NASA content is generally not subject to copyright in the United States.
+NASA is acknowledged as the source. NASA identifiers and logos are not used,
+and no NASA endorsement is implied. The raw source download is not committed;
+the repository contains the manifest and derived texture assets.
+
 ## Consolidated and Generated Content
 
 `XCF_DE_Complete` and `XCF_Namepack_Extra` include install-ready generated

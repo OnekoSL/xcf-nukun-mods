@@ -1,0 +1,74 @@
+extraSprites:
+  - type: XCF_UFOPEDIA_IMG_CHURCH_OF_DAGON_AFTER_NETWORK_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/InterceptedMessages/Church_of_Dagon_After_Network.png
+
+  - type: XCF_UFOPEDIA_IMG_BLACK_LOTUS_AFTER_NETWORK_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/InterceptedMessages/Black_Lotus_After_Network.png
+
+  - type: XCF_UFOPEDIA_IMG_RED_DAWN_AFTER_NETWORK_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/InterceptedMessages/Red_Dawn_After_Network.png
+
+  - type: XCF_UFOPEDIA_IMG_EXALT_AFTER_NETWORK_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/InterceptedMessages/EXALT_After_Network.png
+
+ufopaedia:
+  - delete: STR_CHURCH_OF_DAGON_AFTER_NETWORK
+  - delete: STR_BLACK_LOTUS_AFTER_NETWORK
+  - delete: STR_ZSRR_AFTER_NETWORK
+  - delete: STR_EXALT_AFTER_NETWORK
+
+  - id: STR_CHURCH_OF_DAGON_AFTER_NETWORK
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_CHURCH_OF_DAGON_AFTER_NETWORK_CPAL
+    text: STR_CHURCH_OF_DAGON_AFTER_NETWORK_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_CHURCH_OF_DAGON_AFTER_NETWORK
+    listOrder: 180050
+
+  - id: STR_BLACK_LOTUS_AFTER_NETWORK
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_BLACK_LOTUS_AFTER_NETWORK_CPAL
+    text: STR_BLACK_LOTUS_AFTER_NETWORK_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_BLACK_LOTUS_AFTER_NETWORK
+    listOrder: 180131
+
+  - id: STR_ZSRR_AFTER_NETWORK
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_RED_DAWN_AFTER_NETWORK_CPAL
+    text: STR_ZSRR_AFTER_NETWORK_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_ZSRR_AFTER_NETWORK
+    listOrder: 180250
+
+  - id: STR_EXALT_AFTER_NETWORK
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_EXALT_AFTER_NETWORK_CPAL
+    text: STR_EXALT_AFTER_NETWORK_UFOPEDIA
+    text_width: 210
+    requires:
+      - STR_EXALT_AFTER_NETWORK
+    listOrder: 180350
