@@ -54,6 +54,90 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Dossiers/Harley_Stone.png
 
+  - type: DOSSIER_RICHTER_TWINS_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Richter_Twins.png
+
+  - type: DOSSIER_DRAKO_ALDRAMIER_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Drako_Aldramier.png
+
+  - type: DOSSIER_RENNIELLE_DIOLATA_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Rennielle_Diolata.png
+
+  - type: DOSSIER_KAO_TONG_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Kao_Tong.png
+
+  - type: DOSSIER_JIN_CHUN_MAE_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Jin_Chun-Mae.png
+
+  - type: DOSSIER_ELIAS_SEPPA_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Elias_Seppa.png
+
+  - type: DOSSIER_SHANE_BARTON_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Shane_Barton.png
+
+  - type: DOSSIER_GABRIEL_NADEAU_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Gabriel_Nadeau.png
+
+  - type: DOSSIER_ILYA_DOLVICH_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Ilya_Dolvich.png
+
+  - type: DOSSIER_ERNIE_LLOYD_SOBATKA_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Ernie_Lloyd_Sobatka.png
+
+  - type: DOSSIER_ABEBA_TEWOLDE_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Abeba_Tewolde.png
+
+  - type: DOSSIER_TAN_YING_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Tan_Ying.png
+
 ufopaedia:
   - delete: STR_DOSSIER_THOMAS_ERICKSON
   - delete: STR_DOSSIER_CHAD
@@ -63,6 +147,18 @@ ufopaedia:
   - delete: STR_DOSSIER_LYDIA_LUX
   - delete: STR_DOSSIER_BABA_DONKA
   - delete: STR_DOSSIER_HARLEY_STONE
+  - delete: STR_DOSSIER_RICHTER_TWINS
+  - delete: STR_DOSSIER_DRAKO_ALDRAMIER
+  - delete: STR_DOSSIER_RENNIELLE_DIOLATA
+  - delete: STR_DOSSIER_KAO_TONG
+  - delete: STR_DOSSIER_JIN_CHUN_MAE
+  - delete: STR_DOSSIER_ELIAS_SEPPA
+  - delete: STR_DOSSIER_SHANE_BARTON
+  - delete: STR_DOSSIER_GABRIEL_NADEAU
+  - delete: STR_DOSSIER_ILYA_DOLVICH
+  - delete: STR_DOSSIER_ERNIE_LLOYD_SOBATKA
+  - delete: STR_DOSSIER_ABEBA_TEWOLDE
+  - delete: STR_DOSSIER_TAN_YING
 
   - id: STR_DOSSIER_THOMAS_ERICKSON
     type_id: 7
@@ -141,3 +237,123 @@ ufopaedia:
     requires:
       - STR_DOSSIER_HARLEY_STONE
     listOrder: 278390
+
+  - id: STR_DOSSIER_RICHTER_TWINS
+    type_id: 7
+    image_id: DOSSIER_RICHTER_TWINS_ART
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_RICHTER_TWINS_UFOPEDIA
+    requires:
+      - STR_DOSSIER_RICHTER_TWINS
+    listOrder: 270020
+
+  - id: STR_DOSSIER_DRAKO_ALDRAMIER
+    type_id: 7
+    image_id: DOSSIER_DRAKO_ALDRAMIER_ART
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_DRAKO_ALDRAMIER_UFOPEDIA
+    requires:
+      - STR_DOSSIER_DRAKO_ALDRAMIER
+    listOrder: 270800
+
+  - id: STR_DOSSIER_RENNIELLE_DIOLATA
+    type_id: 7
+    image_id: DOSSIER_RENNIELLE_DIOLATA_ART_CPAL
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_RENNIELLE_DIOLATA_UFOPEDIA
+    requires:
+      - STR_DOSSIER_RENNIELLE_DIOLATA
+    listOrder: 271150
+
+  - id: STR_DOSSIER_KAO_TONG
+    type_id: 7
+    image_id: DOSSIER_KAO_TONG_ART
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_KAO_TONG_UFOPEDIA
+    requires:
+      - STR_DOSSIER_KAO_TONG
+    listOrder: 271600
+
+  - id: STR_DOSSIER_JIN_CHUN_MAE
+    type_id: 7
+    image_id: DOSSIER_JIN_CHUN_MAE_ART
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_JIN_CHUN_MAE_UFOPEDIA
+    requires:
+      - STR_DOSSIER_JIN_CHUN_MAE
+    listOrder: 271700
+
+  - id: STR_DOSSIER_ELIAS_SEPPA
+    type_id: 7
+    image_id: DOSSIER_ELIAS_SEPPA_ART
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_ELIAS_SEPPA_UFOPEDIA
+    requires:
+      - STR_DOSSIER_ELIAS_SEPPA
+    listOrder: 273200
+
+  - id: STR_DOSSIER_SHANE_BARTON
+    type_id: 7
+    image_id: DOSSIER_SHANE_BARTON_ART_CPAL
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_SHANE_BARTON_UFOPEDIA
+    requires:
+      - STR_DOSSIER_SHANE_BARTON
+    listOrder: 281010
+
+  - id: STR_DOSSIER_GABRIEL_NADEAU
+    type_id: 7
+    image_id: DOSSIER_GABRIEL_NADEAU_ART_CPAL
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_GABRIEL_NADEAU_UFOPEDIA
+    requires:
+      - STR_DOSSIER_GABRIEL_NADEAU
+    listOrder: 281230
+
+  - id: STR_DOSSIER_ILYA_DOLVICH
+    type_id: 7
+    image_id: DOSSIER_ILYA_DOLVICH_ART
+    text_width: 180
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_ILYA_DOLVICH_UFOPEDIA
+    requires:
+      - STR_DOSSIER_ILYA_DOLVICH
+    listOrder: 278360
+
+  - id: STR_DOSSIER_ERNIE_LLOYD_SOBATKA
+    type_id: 7
+    image_id: DOSSIER_ERNIE_LLOYD_SOBATKA_ART
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_ERNIE_LLOYD_SOBATKA_UFOPEDIA
+    requires:
+      - STR_DOSSIER_ERNIE_LLOYD_SOBATKA
+    listOrder: 270540
+
+  - id: STR_DOSSIER_ABEBA_TEWOLDE
+    type_id: 7
+    image_id: DOSSIER_ABEBA_TEWOLDE_ART
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_ABEBA_TEWOLDE_UFOPEDIA
+    requires:
+      - STR_DOSSIER_ABEBA_TEWOLDE
+    listOrder: 270600
+
+  - id: STR_DOSSIER_TAN_YING
+    type_id: 7
+    image_id: DOSSIER_TAN_YING_ART
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_TAN_YING_UFOPEDIA
+    requires:
+      - STR_DOSSIER_TAN_YING
+    listOrder: 270710

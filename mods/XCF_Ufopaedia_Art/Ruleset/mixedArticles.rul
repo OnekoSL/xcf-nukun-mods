@@ -1,0 +1,129 @@
+extraSprites:
+  - type: INFO_UPLOAD_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/InfoUpload.png
+
+  - type: UFOPEDIA_IMG_SHAMBLER_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Creatures/Shambler.png
+
+  - type: UFOPEDIA_IMG_ZOMBIE_BOOMER_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Creatures/Zombie_Boomer.png
+
+  - type: UFOPEDIA_IMG_CHUPACABRA_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Creatures/Chupacabra.png
+
+  - type: XCF_UFOPEDIA_IMG_MUGGLE_AI_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Vehicles/Muggle_AI_CPAL.png
+
+  - type: XCF_UFOPEDIA_IMG_SENTIENT_ALGORITHMS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Sentient_Algorithms_CPAL.png
+
+  - type: UFOPEDIA_IMG_ZOMBIE_GRUBAS_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Creatures/Zombie_Grubas.png
+
+ufopaedia:
+  - delete: STR_INFO_UPLOAD
+  - delete: STR_SHAMBLER
+  - delete: STR_ZOMBIE_BOOMER
+  - delete: STR_CHUPACABRA
+  - delete: STR_MUGGLE_AI
+  - delete: STR_SENTIENT_ALGORYTHMS
+  - delete: STR_ZOMBIE_GRUBAS
+
+  - id: STR_INFO_UPLOAD
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: INFO_UPLOAD_ART_CPAL
+    text: STR_INFO_UPLOAD_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    requires:
+      - STR_INFO_UPLOAD
+    listOrder: 1270
+
+  - id: STR_SHAMBLER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SHAMBLER
+    image_id: UFOPEDIA_IMG_SHAMBLER_ART
+    text: STR_SHAMBLER_UFOPEDIA
+    text_width: 170
+    listOrder: 161280
+
+  - id: STR_ZOMBIE_BOOMER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ZOMBIE_BOOMER
+    image_id: UFOPEDIA_IMG_ZOMBIE_BOOMER_ART
+    text: STR_ZOMBIE_BOOMER_UFOPEDIA
+    text_width: 161
+    listOrder: 164124
+
+  - id: STR_CHUPACABRA
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CHUPACABRA
+    image_id: UFOPEDIA_IMG_CHUPACABRA_ART
+    text: STR_CHUPACABRA_UFOPEDIA
+    text_width: 158
+    listOrder: 161180
+
+  - id: STR_MUGGLE_AI
+    type_id: 7
+    section: STR_HWP_UC
+    image_id: XCF_UFOPEDIA_IMG_MUGGLE_AI_CPAL
+    text: STR_MUGGLE_AI_UFOPEDIA
+    text_width: 190
+    requires:
+      - STR_MUGGLE_AI
+    listOrder: 10600
+
+  - id: STR_SENTIENT_ALGORYTHMS
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: XCF_UFOPEDIA_IMG_SENTIENT_ALGORITHMS_CPAL
+    text: STR_SENTIENT_ALGORYTHMS_UFOPEDIA
+    text_width: 310
+    requires:
+      - STR_SENTIENT_ALGORYTHMS
+    listOrder: 1190
+
+  - id: STR_ZOMBIE_GRUBAS
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ZOMBIE_GRUBAS
+    image_id: UFOPEDIA_IMG_ZOMBIE_GRUBAS_ART
+    text: STR_ZOMBIE_GRUBAS_UFOPEDIA
+    text_width: 158
+    listOrder: 164110

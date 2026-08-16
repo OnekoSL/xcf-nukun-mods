@@ -132,6 +132,60 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopaedia/Awards/MEDAL_SUPPRESSOR_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_HEALER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_HEALER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_CARREER_KILLS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_CARREER_KILLS_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_GUNSLINGER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_GUNSLINGER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_MAULER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_MAULER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_SPELUNKER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_SPELUNKER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_AQUANAUT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_AQUANAUT_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_TRADITIONALIST_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_TRADITIONALIST_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_SLASHER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_SLASHER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_BOMBARDIER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_BOMBARDIER_CPAL.png
 ufopaedia:
   - delete: STR_MEDAL_ORIGINAL8_NAME
   - delete: STR_MEDAL_SERVICE_TIME_NAME
@@ -155,6 +209,15 @@ ufopaedia:
   - delete: STR_MEDAL_TASEMASTER_NAME
   - delete: STR_MEDAL_RACE_KILLS_NAME
   - delete: STR_MEDAL_SUPPRESSOR_NAME
+  - delete: STR_MEDAL_HEALER_NAME
+  - delete: STR_MEDAL_CARREER_KILLS_NAME
+  - delete: STR_MEDAL_GUNSLINGER_NAME
+  - delete: STR_MEDAL_MAULER_NAME
+  - delete: STR_MEDAL_SPELUNKER_NAME
+  - delete: STR_MEDAL_AQUANAUT_NAME
+  - delete: STR_MEDAL_TRADITIONALIST_NAME
+  - delete: STR_MEDAL_SLASHER_NAME
+  - delete: STR_MEDAL_BOMBARDIER_NAME
   - id: STR_MEDAL_ORIGINAL8_NAME
     type_id: 7
     section: STR_COMMENDATIONS_UC
@@ -330,3 +393,75 @@ ufopaedia:
     text: STR_MEDAL_SUPPRESSOR_UFOPEDIA
     text_width: 158
     listOrder: 360412
+  - id: STR_MEDAL_HEALER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_HEALER_CPAL
+    text: STR_MEDAL_HEALER_UFOPEDIA
+    text_width: 158
+    listOrder: 360092
+  - id: STR_MEDAL_CARREER_KILLS_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_CARREER_KILLS_CPAL
+    text: STR_MEDAL_CARREER_KILLS_UFOPEDIA
+    text_width: 158
+    listOrder: 360110
+  - id: STR_MEDAL_GUNSLINGER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_GUNSLINGER_CPAL
+    text: STR_MEDAL_GUNSLINGER_UFOPEDIA
+    text_width: 158
+    listOrder: 360345
+  - id: STR_MEDAL_MAULER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_MAULER_CPAL
+    text: STR_MEDAL_MAULER_UFOPEDIA
+    text_width: 158
+    listOrder: 360440
+  - id: STR_MEDAL_SPELUNKER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_SPELUNKER_CPAL
+    text: STR_MEDAL_SPELUNKER_UFOPEDIA
+    text_width: 158
+    listOrder: 360081
+  - id: STR_MEDAL_AQUANAUT_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_AQUANAUT_CPAL
+    text: STR_MEDAL_AQUANAUT_UFOPEDIA
+    text_width: 158
+    listOrder: 360085
+  - id: STR_MEDAL_TRADITIONALIST_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_TRADITIONALIST_CPAL
+    text: STR_MEDAL_TRADITIONALIST_UFOPEDIA
+    text_width: 158
+    listOrder: 360336
+  - id: STR_MEDAL_SLASHER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_SLASHER_CPAL
+    text: STR_MEDAL_SLASHER_UFOPEDIA
+    text_width: 158
+    listOrder: 360340
+  - id: STR_MEDAL_BOMBARDIER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_BOMBARDIER_CPAL
+    text: STR_MEDAL_BOMBARDIER_UFOPEDIA
+    text_width: 158
+    listOrder: 360380

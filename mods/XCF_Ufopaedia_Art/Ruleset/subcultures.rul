@@ -1,0 +1,7 @@
+extraSprites:
+  - type: UFOPEDIA_IMG_GANG_WESTMEN_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Subcultures/Westmen.png

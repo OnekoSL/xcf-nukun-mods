@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added 39 Ufopaedia illustrations covering awards, creatures, dossiers,
+  general reports, organizations, staff reports, subcultures, and vehicles.
 - Fixed Werecat scout and combat claw hit sounds referencing the submod's
   resource namespace instead of the X-Com Files `BATTLE.CAT` sound.
 - Added replacement illustrations for Red Dawn Bio-Enhancement and the
