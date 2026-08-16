@@ -20,7 +20,7 @@ items:
     bigSprite: 585
     floorSprite: 31
     meleeSound: 48
-    meleeHitSound: 108
+    meleeHitSound: {mod: x-com-files, index: 108}
     clipSize: -1
     power: 15
     strengthApplied: true
@@ -41,7 +41,7 @@ items:
     bigSprite: 585
     floorSprite: 31
     meleeSound: 48
-    meleeHitSound: 108
+    meleeHitSound: {mod: x-com-files, index: 108}
     clipSize: -1
     power: 35
     strengthApplied: true

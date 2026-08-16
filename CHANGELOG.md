@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Fixed Werecat scout and combat claw hit sounds referencing the submod's
+  resource namespace instead of the X-Com Files `BATTLE.CAT` sound.
 - Added replacement illustrations for Red Dawn Bio-Enhancement and the
   Council's Power Chain.
 - Added `XCF_Earth_Polish` 0.2.0, a deterministic NASA-derived satellite-style
