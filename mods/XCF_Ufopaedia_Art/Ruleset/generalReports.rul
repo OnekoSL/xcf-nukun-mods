@@ -34,12 +34,20 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Reports/Alien_Abduction.png
 
+  - type: XCF_UFOPEDIA_IMG_ALIEN_HARVEST_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Reports/Alien_Harvest_CPAL.png
+
 ufopaedia:
   - delete: STR_CYBERINVESTIGATIONS
   - delete: STR_XCOM_PERSONNEL
   - delete: STR_PUBLIC_TRANSPORT
   - delete: STR_PRIVATE_TRANSPORT
   - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_HARVEST
 
   - id: STR_ALIEN_ABDUCTION
     type_id: 7
@@ -50,6 +58,16 @@ ufopaedia:
     text: STR_ALIEN_ABDUCTION_UFOPEDIA
     text_width: 154
     listOrder: 168420
+
+  - id: STR_ALIEN_HARVEST
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: XCF_UFOPEDIA_IMG_ALIEN_HARVEST_CPAL
+    requires:
+      - STR_ALIEN_HARVEST
+    text: STR_ALIEN_HARVEST_UFOPEDIA
+    text_width: 154
+    listOrder: 168410
 
   - id: STR_XCOM_PERSONNEL
     type_id: 7

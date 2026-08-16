@@ -1,10 +1,45 @@
 extraSprites:
+  - type: UFOPEDIA_IMG_STAFF_001_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_001_Unbearable_Interruptions.png
+
   - type: UFOPEDIA_IMG_STAFF_002_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopaedia/StaffReports/Staff_002_Interrogation_What.png
+
+  - type: UFOPEDIA_IMG_STAFF_003_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_003_Cure_for_Cancer_CPAL.png
+
+  - type: UFOPEDIA_IMG_STAFF_007_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_007_Wisdom_and_Insight.png
+
+  - type: UFOPEDIA_IMG_STAFF_008_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_008_Point_of_Perspective.png
+
+  - type: UFOPEDIA_IMG_STAFF_009_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_009_Dreams_of_Titans_CPAL.png
 
   - type: UFOPEDIA_IMG_STAFF_012_CPAL
     singleImage: true
@@ -20,6 +55,13 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/StaffReports/Staff_019_Medical_Advice.png
 
+  - type: UFOPEDIA_IMG_STAFF_026_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_026_Flashlights.png
+
   - type: UFOPEDIA_IMG_STAFF_032_CPAL
     singleImage: true
     width: 320
@@ -34,14 +76,38 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/StaffReports/Staff_039_Thermodynamics_of_Violence.png
 
+  - type: UFOPEDIA_IMG_STAFF_040_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/StaffReports/Staff_040_Moderation_Is_Key.png
+
 ufopaedia:
   # XComFiles defines these as type 4; recreate them as type 7 so text can
   # remain separate on the left while the illustration occupies the right.
+  - delete: STR_STAFF_001
   - delete: STR_STAFF_002
+  - delete: STR_STAFF_003
+  - delete: STR_STAFF_007
+  - delete: STR_STAFF_008
+  - delete: STR_STAFF_009
   - delete: STR_STAFF_012
   - delete: STR_STAFF_019
+  - delete: STR_STAFF_026
   - delete: STR_STAFF_032
   - delete: STR_STAFF_039
+  - delete: STR_STAFF_040
+
+  - id: STR_STAFF_001
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_001_CPAL
+    text: STR_STAFF_001_UFOPEDIA
+    text_width: 250
+    requires:
+      - STR_STAFF_001
+    listOrder: 284010
 
   - id: STR_STAFF_002
     type_id: 7
@@ -52,6 +118,46 @@ ufopaedia:
     requires:
       - STR_STAFF_002
     listOrder: 284020
+
+  - id: STR_STAFF_003
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_003_CPAL
+    text: STR_STAFF_003_UFOPEDIA
+    text_width: 180
+    requires:
+      - STR_STAFF_003
+    listOrder: 284030
+
+  - id: STR_STAFF_007
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_007_CPAL
+    text: STR_STAFF_007_UFOPEDIA
+    text_width: 145
+    requires:
+      - STR_STAFF_007
+    listOrder: 284070
+
+  - id: STR_STAFF_008
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_008_CPAL
+    text: STR_STAFF_008_UFOPEDIA
+    text_width: 190
+    requires:
+      - STR_STAFF_008
+    listOrder: 284080
+
+  - id: STR_STAFF_009
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_009_CPAL
+    text: STR_STAFF_009_UFOPEDIA
+    text_width: 175
+    requires:
+      - STR_STAFF_009
+    listOrder: 284090
 
   - id: STR_STAFF_012
     type_id: 7
@@ -73,6 +179,16 @@ ufopaedia:
       - STR_STAFF_019
     listOrder: 284190
 
+  - id: STR_STAFF_026
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_026_CPAL
+    text: STR_STAFF_026_UFOPEDIA
+    text_width: 220
+    requires:
+      - STR_STAFF_026
+    listOrder: 284260
+
   - id: STR_STAFF_032
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -92,3 +208,13 @@ ufopaedia:
     requires:
       - STR_STAFF_039
     listOrder: 284390
+
+  - id: STR_STAFF_040
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UFOPEDIA_IMG_STAFF_040_CPAL
+    text: STR_STAFF_040_UFOPEDIA
+    text_width: 150
+    requires:
+      - STR_STAFF_040
+    listOrder: 284400
