@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Added replacement illustrations for Red Dawn Bio-Enhancement and the
+  Council's Power Chain.
+- Added `XCF_Earth_Polish` 0.2.0, a deterministic NASA-derived satellite-style
+  Geoscape terrain atlas for OXCE 8.5 and X-Com Files 4.0, with XCF-based
+  hybrid microtextures that suppress visible repetition at every zoom level.
+- Added replacement illustrations for X-Com Log Report No. 1, Promotion I,
+  and Alien Abduction.
 - Added narrative organization illustrations for Red Dawn and EXALT.
 - Added narrative organization illustrations for the Council of Earth, Church
   of Dagon, and Black Lotus.

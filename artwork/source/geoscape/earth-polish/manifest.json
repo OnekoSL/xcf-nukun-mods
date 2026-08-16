@@ -1,0 +1,180 @@
+{
+  "schema": 2,
+  "generatorSeed": 8504001,
+  "source": {
+    "title": "Blue Marble Next Generation: Topography and Bathymetry, January",
+    "provider": "NASA Earth Observatory",
+    "recordUrl": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/",
+    "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/january/world.topo.bathy.200401.3x5400x2700.jpg",
+    "cacheFile": "world.topo.bathy.200401.3x5400x2700.jpg",
+    "sha256": "1684c4f8f51970dcb4a7451302bf3be17bed657aed9fece6f80d7b191e8afa3d",
+    "width": 5400,
+    "height": 2700
+  },
+  "sourceSize": 512,
+  "atlas": {
+    "width": 448,
+    "height": 96,
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "biomes": 14,
+    "zoomRows": 3
+  },
+  "zoomProfiles": [
+    {
+      "name": "near",
+      "row": 0,
+      "xcfDetailWeight": 0.70,
+      "nasaDetailWeight": 0.30,
+      "highPassRadius": 2.0,
+      "lumaSpan": 0.70,
+      "ditherStrength": 0.35
+    },
+    {
+      "name": "medium",
+      "row": 1,
+      "xcfDetailWeight": 0.75,
+      "nasaDetailWeight": 0.25,
+      "highPassRadius": 3.0,
+      "lumaSpan": 0.63,
+      "ditherStrength": 0.20
+    },
+    {
+      "name": "far",
+      "row": 2,
+      "xcfDetailWeight": 0.65,
+      "nasaDetailWeight": 0.35,
+      "highPassRadius": 4.0,
+      "lumaSpan": 0.61,
+      "ditherStrength": 0.0
+    }
+  ],
+  "biomes": [
+    {
+      "id": 0,
+      "slug": "northern_forest",
+      "name": "Northern forest",
+      "samples": [[-107.0, 57.0, 14.0], [92.0, 60.0, 18.0]],
+      "color": [0.88, 1.08, 0.90],
+      "contrast": 1.10,
+      "brightness": 0.90
+    },
+    {
+      "id": 1,
+      "slug": "plains",
+      "name": "Plains",
+      "samples": [[-101.0, 42.0, 22.0], [64.0, 48.0, 24.0]],
+      "color": [1.10, 1.08, 0.76],
+      "contrast": 1.08,
+      "brightness": 1.02
+    },
+    {
+      "id": 2,
+      "slug": "temperate_mixed",
+      "name": "Temperate forest and plains",
+      "samples": [[19.0, 49.0, 18.0], [-81.0, 39.0, 18.0]],
+      "color": [0.98, 1.08, 0.86],
+      "contrast": 1.10,
+      "brightness": 0.98
+    },
+    {
+      "id": 3,
+      "slug": "southern_forest",
+      "name": "Southern forest",
+      "samples": [[-72.0, -44.0, 6.0], [146.0, -42.0, 4.0]],
+      "color": [0.88, 1.07, 0.98],
+      "contrast": 1.12,
+      "brightness": 0.91
+    },
+    {
+      "id": 4,
+      "slug": "savanna",
+      "name": "Savanna",
+      "samples": [[35.0, -2.0, 18.0], [25.0, -17.0, 20.0]],
+      "color": [1.20, 1.07, 0.69],
+      "contrast": 1.12,
+      "brightness": 1.04
+    },
+    {
+      "id": 5,
+      "slug": "mountains",
+      "name": "Mountains",
+      "samples": [[84.0, 29.0, 15.0], [-70.0, -24.0, 17.0]],
+      "color": [1.03, 1.00, 0.94],
+      "contrast": 1.24,
+      "brightness": 0.96
+    },
+    {
+      "id": 6,
+      "slug": "marsh_forest",
+      "name": "Marshy forest",
+      "samples": [[-57.0, -18.0, 14.0], [-81.0, 27.0, 12.0]],
+      "color": [0.80, 1.13, 0.94],
+      "contrast": 1.08,
+      "brightness": 0.88
+    },
+    {
+      "id": 7,
+      "slug": "sand_desert",
+      "name": "Sand desert",
+      "samples": [[13.0, 24.0, 28.0], [47.0, 22.0, 22.0]],
+      "color": [1.26, 1.10, 0.72],
+      "contrast": 1.10,
+      "brightness": 1.12
+    },
+    {
+      "id": 8,
+      "slug": "rock_desert",
+      "name": "Rock desert",
+      "samples": [[-69.0, -23.0, 16.0], [-110.0, 36.0, 14.0]],
+      "color": [1.17, 0.93, 0.78],
+      "contrast": 1.20,
+      "brightness": 0.98
+    },
+    {
+      "id": 9,
+      "slug": "polar_mountains",
+      "name": "Polar and high mountains",
+      "samples": [[-42.0, 70.0, 10.0], [-151.0, 63.0, 10.0]],
+      "color": [0.94, 1.02, 1.12],
+      "contrast": 1.20,
+      "brightness": 1.08
+    },
+    {
+      "id": 10,
+      "slug": "rain_forest",
+      "name": "Rain forest",
+      "samples": [[-63.0, -5.0, 24.0], [21.0, 0.0, 20.0]],
+      "color": [0.72, 1.18, 0.78],
+      "contrast": 1.14,
+      "brightness": 0.82
+    },
+    {
+      "id": 11,
+      "slug": "tundra",
+      "name": "Tundra",
+      "samples": [[105.0, 70.0, 14.0], [-105.0, 68.0, 12.0]],
+      "color": [0.94, 1.04, 0.96],
+      "contrast": 1.08,
+      "brightness": 0.98
+    },
+    {
+      "id": 12,
+      "slug": "ice_fields",
+      "name": "Low ice fields",
+      "samples": [[20.0, -78.0, 14.0], [-46.0, 76.0, 10.0]],
+      "color": [0.93, 1.01, 1.15],
+      "contrast": 1.06,
+      "brightness": 1.18
+    },
+    {
+      "id": 13,
+      "slug": "cold_desert",
+      "name": "Cold desert",
+      "samples": [[104.0, 43.0, 24.0], [88.0, 33.0, 20.0]],
+      "color": [1.08, 1.00, 0.86],
+      "contrast": 1.15,
+      "brightness": 1.00
+    }
+  ]
+}

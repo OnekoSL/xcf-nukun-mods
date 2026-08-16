@@ -71,6 +71,20 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Enemies/EXALT_Liquidator.png
 
+  - type: XCF_UFOPEDIA_IMG_BLACK_LOTUS_WARRIOR_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/Black_Lotus_Warrior.png
+
+  - type: XCF_UFOPEDIA_IMG_ZOMBIE_REPORT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Enemies/Zombie.png
+
 ufopaedia:
   - delete: STR_FARMER
   - delete: STR_DOGE
@@ -83,6 +97,8 @@ ufopaedia:
   - delete: STR_BLACK_LOTUS_FOOTMAN
   - delete: STR_EXALT_GOON
   - delete: STR_EXALT_LIQUIDATOR
+  - delete: STR_BLACK_LOTUS_WARRIOR
+  - delete: STR_ZOMBIE_STERILE
 
 
   - id: STR_FARMER
@@ -180,6 +196,27 @@ ufopaedia:
     requires:
       - STR_EXALT_GOON
     listOrder: 150310
+
+  - id: STR_BLACK_LOTUS_WARRIOR
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: XCF_UFOPEDIA_IMG_BLACK_LOTUS_WARRIOR_REPORT_CPAL
+    text: STR_BLACK_LOTUS_WARRIOR_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_BLACK_LOTUS_WARRIOR
+    listOrder: 150110
+
+  - id: STR_ZOMBIE_STERILE
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: XCF_UFOPEDIA_IMG_ZOMBIE_REPORT_CPAL
+    text: STR_ZOMBIE_STERILE_UFOPEDIA
+    text_width: 158
+    requires:
+      - STR_ZOMBIE_STERILE
+    listOrder: 164090
+
   - id: STR_EXALT_LIQUIDATOR
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS

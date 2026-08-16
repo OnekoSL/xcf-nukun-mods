@@ -12,6 +12,9 @@ dist/
 
 # Caches and editor files
 .cache/
+artwork/cache/
+**/_generated_review/
+**/_preview/
 __pycache__/
 *.pyc
 .vscode/

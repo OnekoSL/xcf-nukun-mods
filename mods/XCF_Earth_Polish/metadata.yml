@@ -1,0 +1,8 @@
+name: "XCF Earth Polish"
+version: "0.2.0"
+requiredExtendedVersion: "8.5"
+author: "Codex + nukun"
+description: "Satellite-inspired Geoscape terrain textures for The X-Com Files."
+id: XCF-Earth-Polish
+isMaster: false
+master: x-com-files
