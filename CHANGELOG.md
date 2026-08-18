@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added 54 Ufopaedia illustrations covering careers, creatures, dossiers, and
+  staff reports, and refreshed the ZSRR Pioneer and Cure for Cancer artwork.
 - Added 39 Ufopaedia illustrations covering awards, creatures, dossiers,
   general reports, organizations, staff reports, subcultures, and vehicles.
 - Fixed Werecat scout and combat claw hit sounds referencing the submod's

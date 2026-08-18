@@ -138,6 +138,20 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Dossiers/Tan_Ying.png
 
+  - type: DOSSIER_MARTIN_JAKUBKO_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Martin_Jakubko.png
+
+  - type: DOSSIER_HARRIE_LENSSEN_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Harrie_Lenssen.png
+
 ufopaedia:
   - delete: STR_DOSSIER_THOMAS_ERICKSON
   - delete: STR_DOSSIER_CHAD
@@ -159,6 +173,8 @@ ufopaedia:
   - delete: STR_DOSSIER_ERNIE_LLOYD_SOBATKA
   - delete: STR_DOSSIER_ABEBA_TEWOLDE
   - delete: STR_DOSSIER_TAN_YING
+  - delete: STR_DOSSIER_MARTIN_JAKUBKO
+  - delete: STR_DOSSIER_HARRIE_LENSSEN
 
   - id: STR_DOSSIER_THOMAS_ERICKSON
     type_id: 7
@@ -357,3 +373,23 @@ ufopaedia:
     requires:
       - STR_DOSSIER_TAN_YING
     listOrder: 270710
+
+  - id: STR_DOSSIER_MARTIN_JAKUBKO
+    type_id: 7
+    image_id: DOSSIER_MARTIN_JAKUBKO_ART
+    text_width: 160
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_MARTIN_JAKUBKO_UFOPEDIA
+    requires:
+      - STR_DOSSIER_MARTIN_JAKUBKO
+    listOrder: 272440
+
+  - id: STR_DOSSIER_HARRIE_LENSSEN
+    type_id: 7
+    image_id: DOSSIER_HARRIE_LENSSEN_ART
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_HARRIE_LENSSEN_UFOPEDIA
+    requires:
+      - STR_DOSSIER_HARRIE_LENSSEN
+    listOrder: 270010
