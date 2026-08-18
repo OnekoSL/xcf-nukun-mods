@@ -48,6 +48,20 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Creatures/Zombie_Grubas.png
 
+  - type: UFOPEDIA_IMG_MEGASCORPION_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Creatures/Megascorpion.png
+
+  - type: UFOPEDIA_IMG_GIANT_BEETLE_ART
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Creatures/Giant_Beetle.png
+
 ufopaedia:
   - delete: STR_INFO_UPLOAD
   - delete: STR_SHAMBLER
@@ -56,6 +70,8 @@ ufopaedia:
   - delete: STR_MUGGLE_AI
   - delete: STR_SENTIENT_ALGORYTHMS
   - delete: STR_ZOMBIE_GRUBAS
+  - delete: STR_MEGASCORPION
+  - delete: STR_GIANT_BEETLE
 
   - id: STR_INFO_UPLOAD
     type_id: 7
@@ -127,3 +143,23 @@ ufopaedia:
     text: STR_ZOMBIE_GRUBAS_UFOPEDIA
     text_width: 158
     listOrder: 164110
+
+  - id: STR_MEGASCORPION
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MEGASCORPION
+    image_id: UFOPEDIA_IMG_MEGASCORPION_ART
+    text: STR_MEGASCORPION_UFOPEDIA
+    text_width: 155
+    listOrder: 161120
+
+  - id: STR_GIANT_BEETLE
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_GIANT_BEETLE
+    image_id: UFOPEDIA_IMG_GIANT_BEETLE_ART
+    text: STR_GIANT_BEETLE_UFOPEDIA
+    text_width: 158
+    listOrder: 161500

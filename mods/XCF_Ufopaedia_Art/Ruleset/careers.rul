@@ -1,0 +1,336 @@
+extraSprites:
+  - type: CAREER_COMMONER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Commoner.png
+
+  - type: CAREER_MARTIAL_ARTIST_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_MartialArtist.png
+
+  - type: CAREER_SABOTEUR_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Saboteur.png
+
+  - type: CAREER_RANGER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Ranger.png
+
+  - type: CAREER_SAPPER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Sapper.png
+
+  - type: CAREER_MARINE_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Marine.png
+
+  - type: CAREER_SPY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Spy.png
+
+  - type: CAREER_MARKSMAN_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Marksman.png
+
+  - type: CAREER_SOLDIER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Soldier.png
+
+  - type: CAREER_POLICE_OFFICER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_PoliceOfficer.png
+
+  - type: CAREER_DETECTIVE_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Detective.png
+
+  - type: CAREER_JOURNALIST_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Journalist.png
+
+  - type: CAREER_STUDENT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Student.png
+
+  - type: CAREER_SAILOR_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Sailor.png
+
+  - type: CAREER_MYSTERY_HUNTER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_MysteryHunter.png
+
+  - type: CAREER_PILOT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Pilot.png
+
+  - type: CAREER_MEDIC_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Medic.png
+
+  - type: CAREER_PSYCHOLOGIST_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Psychologist.png
+
+  - type: CAREER_FIREMAN_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Fireman.png
+
+  - type: CAREER_EXPLORER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Explorer.png
+
+  - type: CAREER_DATA_ANALYST_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_DataAnalyst.png
+
+  - type: CAREER_ADEPT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Adept.png
+
+  - type: CAREER_THIEF_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Thief.png
+
+  - type: CAREER_ILLUSIONIST_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Illusionist.png
+
+  - type: CAREER_DELIVERY_MAN_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_DeliveryMan.png
+
+  - type: CAREER_MOUNTAINEER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Mountaineer.png
+
+  - type: CAREER_DRIVER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Driver.png
+
+  - type: CAREER_ATHLETE_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Athlete.png
+
+  - type: CAREER_LABORER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Laborer.png
+
+  - type: CAREER_FENCER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Fencer.png
+
+  - type: CAREER_MYSTIC_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Mystic.png
+
+  - type: CAREER_ENGINEER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Engineer.png
+
+  - type: CAREER_ASTRONOMER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Astronomer.png
+
+  - type: CAREER_TRADER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Trader.png
+
+  - type: CAREER_PUNK_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Punk.png
+
+  - type: CAREER_COACH_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Coach.png
+
+  - type: CAREER_FARMER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Farmer.png
+
+  - type: CAREER_HUNTER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Hunter.png
+
+  - type: CAREER_PRIEST_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Priest.png
+
+  - type: CAREER_HISTORIAN_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Historian.png
+
+  - type: CAREER_ENTERTAINER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Entertainer.png
+
+  - type: CAREER_NEGOTIATOR_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Negotiator.png
+
+  - type: CAREER_ASTRONAUT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Astronaut.png
+
+  - type: CAREER_INSTITUTIONALIZED_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Institutionalized.png
+
+  - type: CAREER_MERCENARY_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Mercenary.png
+
+  - type: CAREER_BODYGUARD_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Bodyguard.png
+
+  - type: CAREER_ARISTOCRAT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_Aristocrat.png
+
+  - type: CAREER_SECRET_AGENT_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Careers/Career_SecretAgent.png

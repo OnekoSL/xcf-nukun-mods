@@ -15,6 +15,7 @@ dist/
 artwork/cache/
 **/_generated_review/
 **/_preview/
+**/previews/
 __pycache__/
 *.pyc
 .vscode/
