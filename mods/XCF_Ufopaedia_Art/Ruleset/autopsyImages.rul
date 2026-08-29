@@ -193,6 +193,27 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Vehicles/Mudranger.png
 
+  - type: UFOPEDIA_IMG_ALIEN_SECRETS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Alien_Secrets.png
+
+  - type: UFOPEDIA_IMG_STAY_ALONE_STAY_ALIVE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Stay_Alone_Stay_Alive.png
+
+  - type: PSI_LINK_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Tutorials/Psi_Vision.png
+
   - type: UFOPEDIA_IMG_NEED_TO_KNOW_BASIS_CPAL
     singleImage: true
     width: 320
