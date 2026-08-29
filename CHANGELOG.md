@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Reconverted the Harrie Lenssen and Martin Jakubko dossier illustrations to
+  avoid reserved CPAL indices after their sprite mappings became CPAL-enabled.
 - Added 81 Ufopaedia illustrations covering awards, dossiers, staff reports,
   and tutorials.
 - Added 54 Ufopaedia illustrations covering careers, creatures, dossiers, and
