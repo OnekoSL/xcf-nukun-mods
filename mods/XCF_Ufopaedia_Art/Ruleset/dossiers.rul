@@ -54,14 +54,14 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Dossiers/Harley_Stone.png
 
-  - type: DOSSIER_RICHTER_TWINS_ART
+  - type: DOSSIER_RICHTER_TWINS_ART_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopaedia/Dossiers/Richter_Twins.png
 
-  - type: DOSSIER_DRAKO_ALDRAMIER_ART
+  - type: DOSSIER_DRAKO_ALDRAMIER_ART_CPAL
     singleImage: true
     width: 320
     height: 200
@@ -75,21 +75,21 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Dossiers/Rennielle_Diolata.png
 
-  - type: DOSSIER_KAO_TONG_ART
+  - type: DOSSIER_KAO_TONG_ART_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopaedia/Dossiers/Kao_Tong.png
 
-  - type: DOSSIER_JIN_CHUN_MAE_ART
+  - type: DOSSIER_JIN_CHUN_MAE_ART_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopaedia/Dossiers/Jin_Chun-Mae.png
 
-  - type: DOSSIER_ELIAS_SEPPA_ART
+  - type: DOSSIER_ELIAS_SEPPA_ART_CPAL
     singleImage: true
     width: 320
     height: 200
@@ -110,47 +110,362 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/Dossiers/Gabriel_Nadeau.png
 
-  - type: DOSSIER_ILYA_DOLVICH_ART
+  - type: DOSSIER_ILYA_DOLVICH_ART_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopaedia/Dossiers/Ilya_Dolvich.png
 
-  - type: DOSSIER_ERNIE_LLOYD_SOBATKA_ART
+  - type: DOSSIER_ERNIE_LLOYD_SOBATKA_ART_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopaedia/Dossiers/Ernie_Lloyd_Sobatka.png
 
-  - type: DOSSIER_ABEBA_TEWOLDE_ART
+  - type: DOSSIER_ABEBA_TEWOLDE_ART_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopaedia/Dossiers/Abeba_Tewolde.png
 
-  - type: DOSSIER_TAN_YING_ART
+  - type: DOSSIER_TAN_YING_ART_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopaedia/Dossiers/Tan_Ying.png
 
-  - type: DOSSIER_MARTIN_JAKUBKO_ART
+  - type: DOSSIER_MARTIN_JAKUBKO_ART_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopaedia/Dossiers/Martin_Jakubko.png
 
-  - type: DOSSIER_HARRIE_LENSSEN_ART
+  - type: DOSSIER_HARRIE_LENSSEN_ART_CPAL
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Ufopaedia/Dossiers/Harrie_Lenssen.png
+
+  - type: DOSSIER_MCGUINNESS_ELLIOTT_COOKE_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/McGuinness_Elliott_Cooke.png
+
+  - type: DOSSIER_SPECTRAL_FM_87_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/SPECTRAL_FM_87.png
+
+  - type: DOSSIER_MADAME_ZOFIE_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Madame_Zofie.png
+
+  - type: DOSSIER_SIEGFRIED_VON_HAGEN_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Siegfried_von_Hagen.png
+
+  - type: DOSSIER_MERIDIAN_HUNTER_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Meridian_Hunter.png
+
+  - type: DOSSIER_DR_HADRIEX_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Dr_Hadriex.png
+
+  - type: DOSSIER_DR_ALPHA_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Dr_Alpha.png
+
+  - type: DOSSIER_AGENT_TRAUMA_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Agent_Trauma.png
+
+  - type: DOSSIER_AGENT_WILHEARD_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Agent_Wilheard.png
+
+  - type: DOSSIER_SHADOWMAN_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Shadowman.png
+
+  - type: DOSSIER_RICHARD_ROTY_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Richard_Roty.png
+
+  - type: DOSSIER_DAVID_VINCENT_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/David_Vincent.png
+
+  - type: DOSSIER_MILLICENT_WEBER_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Millicent_Weber.png
+
+  - type: DOSSIER_LO_WO_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Lo_Wo.png
+
+  - type: DOSSIER_OWEN_HOFFER_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Owen_Hoffer.png
+
+  - type: DOSSIER_NATALYA_SERNOVICH_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Natalya_Sernovich.png
+
+  - type: DOSSIER_NATASHA_MOROZOVA_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Natasha_Morozova.png
+
+  - type: DOSSIER_ARASTOO_NAMDAR_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Arastoo_Namdar.png
+
+  - type: DOSSIER_HENRY_GARRISON_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Henry_Garrison.png
+
+  - type: DOSSIER_LADY_LUCY_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Lady_Lucy.png
+
+  - type: DOSSIER_GRISHKA_BULLET_YASHIN_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Grishka_Bullet_Yashin.png
+
+  - type: DOSSIER_SMILES_MCGEE_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Smiles_McGee.png
+
+  - type: DOSSIER_GERTRUDE_ELLISON_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Gertrude_Ellison.png
+
+  - type: DOSSIER_ANTHONY_BARKER_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Anthony_Barker.png
+
+  - type: DOSSIER_TYVARIUS_STIENBURG_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Tyvarius_Stienburg.png
+
+  - type: DOSSIER_GUNTER_MEYER_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Gunter_Meyer.png
+
+  - type: DOSSIER_PIOTR_WISNIEWSKI_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Piotr_Wisniewski.png
+
+  - type: DOSSIER_PARVATI_ANAND_FOSTER_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Parvati_Anand_Foster.png
+
+  - type: DOSSIER_MONICA_GRUMMANN_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Monica_Grummann.png
+
+  - type: DOSSIER_CARLOS_TANAKA_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Carlos_Tanaka.png
+
+  - type: DOSSIER_TAMAN_SHUD_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Taman_Shud.png
+
+  - type: DOSSIER_KIM_HARWELL_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Kim_Harwell.png
+
+  - type: DOSSIER_MACKENZIE_CALHOUN_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Mackenzie_Calhoun.png
+
+  - type: DOSSIER_LUCIFER_ROMANOV_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Lucifer_Romanov.png
+
+  - type: DOSSIER_CRAZY_HASSAN_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Crazy_Hassan.png
+
+  - type: DOSSIER_TERRENCE_LOCKHART_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Terrence_Lockhart.png
+
+  - type: DOSSIER_SAKAMORI_MOTOKO_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Sakamori_Motoko.png
+
+  - type: DOSSIER_LEONARD_PAXTON_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Leonard_Paxton.png
+
+  - type: DOSSIER_IOANA_IANCU_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Ioana_Iancu.png
+
+  - type: DOSSIER_ANATOLY_AVDEYEV_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Anatoly_Avdeyev.png
+
+  - type: DOSSIER_IVAN_PRYPET_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Ivan_Prypet.png
+
+  - type: DOSSIER_ABLE_STANDARD_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Able_Standard.png
+
+  - type: DOSSIER_IVAN_VASLOV_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Ivan_Vaslov.png
+
+  - type: DOSSIER_BRITTA_HANSEN_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Britta_Hansen.png
+
+  - type: DOSSIER_DING_QUADONG_ART_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Dossiers/Ding_Quadong.png
 
 ufopaedia:
   - delete: STR_DOSSIER_THOMAS_ERICKSON
@@ -175,6 +490,51 @@ ufopaedia:
   - delete: STR_DOSSIER_TAN_YING
   - delete: STR_DOSSIER_MARTIN_JAKUBKO
   - delete: STR_DOSSIER_HARRIE_LENSSEN
+  - delete: STR_DOSSIER_MCGUINNESS_ELLIOTT_COOKE
+  - delete: STR_DOSSIER_SPECTRAL_FM_87
+  - delete: STR_DOSSIER_MADAME_ZOFIE
+  - delete: STR_DOSSIER_SIEGFRIED_VON_HAGEN
+  - delete: STR_DOSSIER_MERIDIAN_HUNTER
+  - delete: STR_DOSSIER_DR_HADRIEX
+  - delete: STR_DOSSIER_DR_ALPHA
+  - delete: STR_DOSSIER_AGENT_TRAUMA
+  - delete: STR_DOSSIER_AGENT_WILHEARD
+  - delete: STR_DOSSIER_SHADOWMAN
+  - delete: STR_DOSSIER_RICHARD_ROTY
+  - delete: STR_DOSSIER_DAVID_VINCENT
+  - delete: STR_DOSSIER_MILLICENT_WEBER
+  - delete: STR_DOSSIER_LO_WO
+  - delete: STR_DOSSIER_OWEN_HOFFER
+  - delete: STR_DOSSIER_NATALYA_SERNOVICH
+  - delete: STR_DOSSIER_NATASHA_MOROZOVA
+  - delete: STR_DOSSIER_ARASTOO_NAMDAR
+  - delete: STR_DOSSIER_HENRY_GARRISON
+  - delete: STR_DOSSIER_LADY_LUCY
+  - delete: STR_DOSSIER_GRISHKA_BULLET_YASHIN
+  - delete: STR_DOSSIER_SMILES_MCGEE
+  - delete: STR_DOSSIER_GERTRUDE_ELLISON
+  - delete: STR_DOSSIER_ANTHONY_BARKER
+  - delete: STR_DOSSIER_TYVARIUS_STIENBURG
+  - delete: STR_DOSSIER_GUNTER_MEYER
+  - delete: STR_DOSSIER_PIOTR_WISNIEWSKI
+  - delete: STR_DOSSIER_PARVATI_ANAND_FOSTER
+  - delete: STR_DOSSIER_MONICA_GRUMMANN
+  - delete: STR_DOSSIER_CARLOS_TANAKA
+  - delete: STR_DOSSIER_TAMAN_SHUD
+  - delete: STR_DOSSIER_KIM_HARWELL
+  - delete: STR_DOSSIER_MACKENZIE_CALHOUN
+  - delete: STR_DOSSIER_LUCIFER_ROMANOV
+  - delete: STR_DOSSIER_CRAZY_HASSAN
+  - delete: STR_DOSSIER_TERRENCE_LOCKHART
+  - delete: STR_DOSSIER_SAKAMORI_MOTOKO
+  - delete: STR_DOSSIER_LEONARD_PAXTON
+  - delete: STR_DOSSIER_IOANA_IANCU
+  - delete: STR_DOSSIER_ANATOLY_AVDEYEV
+  - delete: STR_DOSSIER_IVAN_PRYPET
+  - delete: STR_DOSSIER_ABLE_STANDARD
+  - delete: STR_DOSSIER_IVAN_VASLOV
+  - delete: STR_DOSSIER_BRITTA_HANSEN
+  - delete: STR_DOSSIER_DING_QUADONG
 
   - id: STR_DOSSIER_THOMAS_ERICKSON
     type_id: 7
@@ -256,7 +616,7 @@ ufopaedia:
 
   - id: STR_DOSSIER_RICHTER_TWINS
     type_id: 7
-    image_id: DOSSIER_RICHTER_TWINS_ART
+    image_id: DOSSIER_RICHTER_TWINS_ART_CPAL
     text_width: 170
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_RICHTER_TWINS_UFOPEDIA
@@ -266,7 +626,7 @@ ufopaedia:
 
   - id: STR_DOSSIER_DRAKO_ALDRAMIER
     type_id: 7
-    image_id: DOSSIER_DRAKO_ALDRAMIER_ART
+    image_id: DOSSIER_DRAKO_ALDRAMIER_ART_CPAL
     text_width: 170
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_DRAKO_ALDRAMIER_UFOPEDIA
@@ -286,7 +646,7 @@ ufopaedia:
 
   - id: STR_DOSSIER_KAO_TONG
     type_id: 7
-    image_id: DOSSIER_KAO_TONG_ART
+    image_id: DOSSIER_KAO_TONG_ART_CPAL
     text_width: 170
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_KAO_TONG_UFOPEDIA
@@ -296,7 +656,7 @@ ufopaedia:
 
   - id: STR_DOSSIER_JIN_CHUN_MAE
     type_id: 7
-    image_id: DOSSIER_JIN_CHUN_MAE_ART
+    image_id: DOSSIER_JIN_CHUN_MAE_ART_CPAL
     text_width: 170
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_JIN_CHUN_MAE_UFOPEDIA
@@ -306,7 +666,7 @@ ufopaedia:
 
   - id: STR_DOSSIER_ELIAS_SEPPA
     type_id: 7
-    image_id: DOSSIER_ELIAS_SEPPA_ART
+    image_id: DOSSIER_ELIAS_SEPPA_ART_CPAL
     text_width: 170
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_ELIAS_SEPPA_UFOPEDIA
@@ -336,7 +696,7 @@ ufopaedia:
 
   - id: STR_DOSSIER_ILYA_DOLVICH
     type_id: 7
-    image_id: DOSSIER_ILYA_DOLVICH_ART
+    image_id: DOSSIER_ILYA_DOLVICH_ART_CPAL
     text_width: 180
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_ILYA_DOLVICH_UFOPEDIA
@@ -346,7 +706,7 @@ ufopaedia:
 
   - id: STR_DOSSIER_ERNIE_LLOYD_SOBATKA
     type_id: 7
-    image_id: DOSSIER_ERNIE_LLOYD_SOBATKA_ART
+    image_id: DOSSIER_ERNIE_LLOYD_SOBATKA_ART_CPAL
     text_width: 154
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_ERNIE_LLOYD_SOBATKA_UFOPEDIA
@@ -356,7 +716,7 @@ ufopaedia:
 
   - id: STR_DOSSIER_ABEBA_TEWOLDE
     type_id: 7
-    image_id: DOSSIER_ABEBA_TEWOLDE_ART
+    image_id: DOSSIER_ABEBA_TEWOLDE_ART_CPAL
     text_width: 154
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_ABEBA_TEWOLDE_UFOPEDIA
@@ -366,7 +726,7 @@ ufopaedia:
 
   - id: STR_DOSSIER_TAN_YING
     type_id: 7
-    image_id: DOSSIER_TAN_YING_ART
+    image_id: DOSSIER_TAN_YING_ART_CPAL
     text_width: 154
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_TAN_YING_UFOPEDIA
@@ -376,7 +736,7 @@ ufopaedia:
 
   - id: STR_DOSSIER_MARTIN_JAKUBKO
     type_id: 7
-    image_id: DOSSIER_MARTIN_JAKUBKO_ART
+    image_id: DOSSIER_MARTIN_JAKUBKO_ART_CPAL
     text_width: 160
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_MARTIN_JAKUBKO_UFOPEDIA
@@ -386,10 +746,460 @@ ufopaedia:
 
   - id: STR_DOSSIER_HARRIE_LENSSEN
     type_id: 7
-    image_id: DOSSIER_HARRIE_LENSSEN_ART
+    image_id: DOSSIER_HARRIE_LENSSEN_ART_CPAL
     text_width: 154
     section: STR_DOSSIERS_UC
     text: STR_DOSSIER_HARRIE_LENSSEN_UFOPEDIA
     requires:
       - STR_DOSSIER_HARRIE_LENSSEN
     listOrder: 270010
+
+  - id: STR_DOSSIER_MCGUINNESS_ELLIOTT_COOKE
+    type_id: 7
+    image_id: DOSSIER_MCGUINNESS_ELLIOTT_COOKE_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_MCGUINNESS_ELLIOTT_COOKE_UFOPEDIA
+    requires:
+      - STR_DOSSIER_MCGUINNESS_ELLIOTT_COOKE
+    listOrder: 278560
+
+  - id: STR_DOSSIER_SPECTRAL_FM_87
+    type_id: 7
+    image_id: DOSSIER_SPECTRAL_FM_87_ART_CPAL
+    text_width: 164
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_SPECTRAL_FM_87_UFOPEDIA
+    requires:
+      - STR_DOSSIER_SPECTRAL_FM_87
+    listOrder: 266900
+
+  - id: STR_DOSSIER_MADAME_ZOFIE
+    type_id: 7
+    image_id: DOSSIER_MADAME_ZOFIE_ART_CPAL
+    text_width: 164
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_MADAME_ZOFIE_UFOPEDIA
+    requires:
+      - STR_DOSSIER_MADAME_ZOFIE
+    listOrder: 266910
+
+  - id: STR_DOSSIER_SIEGFRIED_VON_HAGEN
+    type_id: 7
+    image_id: DOSSIER_SIEGFRIED_VON_HAGEN_ART_CPAL
+    text_width: 164
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_SIEGFRIED_VON_HAGEN_UFOPEDIA
+    requires:
+      - STR_DOSSIER_SIEGFRIED_VON_HAGEN
+    listOrder: 266800
+
+  - id: STR_DOSSIER_MERIDIAN_HUNTER
+    type_id: 7
+    image_id: DOSSIER_MERIDIAN_HUNTER_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_MERIDIAN_HUNTER_UFOPEDIA
+    requires:
+      - STR_DOSSIER_MERIDIAN_HUNTER
+    listOrder: 280000
+
+  - id: STR_DOSSIER_DR_HADRIEX
+    type_id: 7
+    image_id: DOSSIER_DR_HADRIEX_ART_CPAL
+    text_width: 172
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_DR_HADRIEX_UFOPEDIA
+    requires:
+      - STR_DOSSIER_DR_HADRIEX
+    listOrder: 266930
+
+  - id: STR_DOSSIER_DR_ALPHA
+    type_id: 7
+    image_id: DOSSIER_DR_ALPHA_ART_CPAL
+    text_width: 157
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_DR_ALPHA_UFOPEDIA
+    requires:
+      - STR_DOSSIER_DR_ALPHA
+    listOrder: 277100
+
+  - id: STR_DOSSIER_AGENT_TRAUMA
+    type_id: 7
+    image_id: DOSSIER_AGENT_TRAUMA_ART_CPAL
+    text_width: 160
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_AGENT_TRAUMA_UFOPEDIA
+    requires:
+      - STR_DOSSIER_AGENT_TRAUMA
+    listOrder: 279000
+
+  - id: STR_DOSSIER_AGENT_WILHEARD
+    type_id: 7
+    image_id: DOSSIER_AGENT_WILHEARD_ART_CPAL
+    text_width: 160
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_AGENT_WILHEARD_UFOPEDIA
+    requires:
+      - STR_DOSSIER_AGENT_WILHEARD
+    listOrder: 279020
+
+  - id: STR_DOSSIER_SHADOWMAN
+    type_id: 7
+    image_id: DOSSIER_SHADOWMAN_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_SHADOWMAN_UFOPEDIA
+    requires:
+      - STR_DOSSIER_SHADOWMAN
+    listOrder: 281300
+
+  - id: STR_DOSSIER_RICHARD_ROTY
+    type_id: 7
+    image_id: DOSSIER_RICHARD_ROTY_ART_CPAL
+    text_width: 160
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_RICHARD_ROTY_UFOPEDIA
+    requires:
+      - STR_DOSSIER_RICHARD_ROTY
+    listOrder: 278090
+
+  - id: STR_DOSSIER_DAVID_VINCENT
+    type_id: 7
+    image_id: DOSSIER_DAVID_VINCENT_ART_CPAL
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_DAVID_VINCENT_UFOPEDIA
+    requires:
+      - STR_DOSSIER_DAVID_VINCENT
+    listOrder: 278750
+
+  - id: STR_DOSSIER_MILLICENT_WEBER
+    type_id: 7
+    image_id: DOSSIER_MILLICENT_WEBER_ART_CPAL
+    text_width: 176
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_MILLICENT_WEBER_UFOPEDIA
+    requires:
+      - STR_DOSSIER_MILLICENT_WEBER
+    listOrder: 277400
+
+  - id: STR_DOSSIER_LO_WO
+    type_id: 7
+    image_id: DOSSIER_LO_WO_ART_CPAL
+    text_width: 140
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_LO_WO_UFOPEDIA
+    requires:
+      - STR_DOSSIER_LO_WO
+    listOrder: 271800
+
+  - id: STR_DOSSIER_OWEN_HOFFER
+    type_id: 7
+    image_id: DOSSIER_OWEN_HOFFER_ART_CPAL
+    text_width: 134
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_OWEN_HOFFER_UFOPEDIA
+    requires:
+      - STR_DOSSIER_OWEN_HOFFER
+    listOrder: 276000
+
+  - id: STR_DOSSIER_NATALYA_SERNOVICH
+    type_id: 7
+    image_id: DOSSIER_NATALYA_SERNOVICH_ART_CPAL
+    text_width: 182
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_NATALYA_SERNOVICH_UFOPEDIA
+    requires:
+      - STR_DOSSIER_NATALYA_SERNOVICH
+    listOrder: 268100
+
+  - id: STR_DOSSIER_NATASHA_MOROZOVA
+    type_id: 7
+    image_id: DOSSIER_NATASHA_MOROZOVA_ART_CPAL
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_NATASHA_MOROZOVA_UFOPEDIA
+    requires:
+      - STR_DOSSIER_NATASHA_MOROZOVA
+    listOrder: 272460
+
+  - id: STR_DOSSIER_ARASTOO_NAMDAR
+    type_id: 7
+    image_id: DOSSIER_ARASTOO_NAMDAR_ART_CPAL
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_ARASTOO_NAMDAR_UFOPEDIA
+    requires:
+      - STR_DOSSIER_ARASTOO_NAMDAR
+    listOrder: 281260
+
+  - id: STR_DOSSIER_HENRY_GARRISON
+    type_id: 7
+    image_id: DOSSIER_HENRY_GARRISON_ART_CPAL
+    text_width: 183
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_HENRY_GARRISON_UFOPEDIA
+    requires:
+      - STR_DOSSIER_HENRY_GARRISON
+    listOrder: 281000
+
+  - id: STR_DOSSIER_LADY_LUCY
+    type_id: 7
+    image_id: DOSSIER_LADY_LUCY_ART_CPAL
+    text_width: 170
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_LADY_LUCY_UFOPEDIA
+    requires:
+      - STR_DOSSIER_LADY_LUCY
+    listOrder: 268150
+
+  - id: STR_DOSSIER_GRISHKA_BULLET_YASHIN
+    type_id: 7
+    image_id: DOSSIER_GRISHKA_BULLET_YASHIN_ART_CPAL
+    text_width: 160
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_GRISHKA_BULLET_YASHIN_UFOPEDIA
+    requires:
+      - STR_DOSSIER_GRISHKA_BULLET_YASHIN
+    listOrder: 281005
+
+  - id: STR_DOSSIER_SMILES_MCGEE
+    type_id: 7
+    image_id: DOSSIER_SMILES_MCGEE_ART_CPAL
+    text_width: 210
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_SMILES_MCGEE_UFOPEDIA
+    requires:
+      - STR_DOSSIER_SMILES_MCGEE
+    listOrder: 281340
+
+  - id: STR_DOSSIER_GERTRUDE_ELLISON
+    type_id: 7
+    image_id: DOSSIER_GERTRUDE_ELLISON_ART_CPAL
+    text_width: 160
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_GERTRUDE_ELLISON_UFOPEDIA
+    requires:
+      - STR_DOSSIER_GERTRUDE_ELLISON
+    listOrder: 268200
+
+  - id: STR_DOSSIER_ANTHONY_BARKER
+    type_id: 7
+    image_id: DOSSIER_ANTHONY_BARKER_ART_CPAL
+    text_width: 160
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_ANTHONY_BARKER_UFOPEDIA
+    requires:
+      - STR_DOSSIER_ANTHONY_BARKER
+    listOrder: 267000
+
+  - id: STR_DOSSIER_TYVARIUS_STIENBURG
+    type_id: 7
+    image_id: DOSSIER_TYVARIUS_STIENBURG_ART_CPAL
+    text_width: 173
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_TYVARIUS_STIENBURG_UFOPEDIA
+    requires:
+      - STR_DOSSIER_TYVARIUS_STIENBURG
+    listOrder: 281200
+
+  - id: STR_DOSSIER_GUNTER_MEYER
+    type_id: 7
+    image_id: DOSSIER_GUNTER_MEYER_ART_CPAL
+    text_width: 174
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_GUNTER_MEYER_UFOPEDIA
+    requires:
+      - STR_DOSSIER_GUNTER_MEYER
+    listOrder: 269000
+
+  - id: STR_DOSSIER_PIOTR_WISNIEWSKI
+    type_id: 7
+    image_id: DOSSIER_PIOTR_WISNIEWSKI_ART_CPAL
+    text_width: 160
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_PIOTR_WISNIEWSKI_UFOPEDIA
+    requires:
+      - STR_DOSSIER_PIOTR_WISNIEWSKI
+    listOrder: 278620
+
+  - id: STR_DOSSIER_PARVATI_ANAND_FOSTER
+    type_id: 7
+    image_id: DOSSIER_PARVATI_ANAND_FOSTER_ART_CPAL
+    text_width: 164
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_PARVATI_ANAND_FOSTER_UFOPEDIA
+    requires:
+      - STR_DOSSIER_PARVATI_ANAND_FOSTER
+    listOrder: 271550
+
+  - id: STR_DOSSIER_MONICA_GRUMMANN
+    type_id: 7
+    image_id: DOSSIER_MONICA_GRUMMANN_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_MONICA_GRUMMANN_UFOPEDIA
+    requires:
+      - STR_DOSSIER_MONICA_GRUMMANN
+    listOrder: 272500
+
+  - id: STR_DOSSIER_CARLOS_TANAKA
+    type_id: 7
+    image_id: DOSSIER_CARLOS_TANAKA_ART_CPAL
+    text_width: 164
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_CARLOS_TANAKA_UFOPEDIA
+    requires:
+      - STR_DOSSIER_CARLOS_TANAKA
+    listOrder: 274750
+
+  - id: STR_DOSSIER_TAMAN_SHUD
+    type_id: 7
+    image_id: DOSSIER_TAMAN_SHUD_ART_CPAL
+    text_width: 164
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_TAMAN_SHUD_UFOPEDIA
+    requires:
+      - STR_DOSSIER_TAMAN_SHUD
+    listOrder: 278800
+
+  - id: STR_DOSSIER_KIM_HARWELL
+    type_id: 7
+    image_id: DOSSIER_KIM_HARWELL_ART_CPAL
+    text_width: 141
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_KIM_HARWELL_UFOPEDIA
+    requires:
+      - STR_DOSSIER_KIM_HARWELL
+    listOrder: 278050
+
+  - id: STR_DOSSIER_MACKENZIE_CALHOUN
+    type_id: 7
+    image_id: DOSSIER_MACKENZIE_CALHOUN_ART_CPAL
+    text_width: 150
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_MACKENZIE_CALHOUN_UFOPEDIA
+    requires:
+      - STR_DOSSIER_MACKENZIE_CALHOUN
+    listOrder: 278060
+
+  - id: STR_DOSSIER_LUCIFER_ROMANOV
+    type_id: 7
+    image_id: DOSSIER_LUCIFER_ROMANOV_ART_CPAL
+    text_width: 161
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_LUCIFER_ROMANOV_UFOPEDIA
+    requires:
+      - STR_DOSSIER_LUCIFER_ROMANOV
+    listOrder: 278710
+
+  - id: STR_DOSSIER_CRAZY_HASSAN
+    type_id: 7
+    image_id: DOSSIER_CRAZY_HASSAN_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_CRAZY_HASSAN_UFOPEDIA
+    requires:
+      - STR_DOSSIER_CRAZY_HASSAN
+    listOrder: 278120
+
+  - id: STR_DOSSIER_TERRENCE_LOCKHART
+    type_id: 7
+    image_id: DOSSIER_TERRENCE_LOCKHART_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_TERRENCE_LOCKHART_UFOPEDIA
+    requires:
+      - STR_DOSSIER_TERRENCE_LOCKHART
+    listOrder: 278400
+
+  - id: STR_DOSSIER_SAKAMORI_MOTOKO
+    type_id: 7
+    image_id: DOSSIER_SAKAMORI_MOTOKO_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_SAKAMORI_MOTOKO_UFOPEDIA
+    requires:
+      - STR_DOSSIER_SAKAMORI_MOTOKO
+    listOrder: 271740
+
+  - id: STR_DOSSIER_LEONARD_PAXTON
+    type_id: 7
+    image_id: DOSSIER_LEONARD_PAXTON_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_LEONARD_PAXTON_UFOPEDIA
+    requires:
+      - STR_DOSSIER_LEONARD_PAXTON
+    listOrder: 273900
+
+  - id: STR_DOSSIER_IOANA_IANCU
+    type_id: 7
+    image_id: DOSSIER_IOANA_IANCU_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_IOANA_IANCU_UFOPEDIA
+    requires:
+      - STR_DOSSIER_IOANA_IANCU
+    listOrder: 270300
+
+  - id: STR_DOSSIER_ANATOLY_AVDEYEV
+    type_id: 7
+    image_id: DOSSIER_ANATOLY_AVDEYEV_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_ANATOLY_AVDEYEV_UFOPEDIA
+    requires:
+      - STR_DOSSIER_ANATOLY_AVDEYEV
+    listOrder: 272300
+
+  - id: STR_DOSSIER_IVAN_PRYPET
+    type_id: 7
+    image_id: DOSSIER_IVAN_PRYPET_ART_CPAL
+    text_width: 150
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_IVAN_PRYPET_UFOPEDIA
+    requires:
+      - STR_DOSSIER_IVAN_PRYPET
+    listOrder: 272010
+
+  - id: STR_DOSSIER_ABLE_STANDARD
+    type_id: 7
+    image_id: DOSSIER_ABLE_STANDARD_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_ABLE_STANDARD_UFOPEDIA
+    requires:
+      - STR_DOSSIER_ABLE_STANDARD
+    listOrder: 278000
+
+  - id: STR_DOSSIER_IVAN_VASLOV
+    type_id: 7
+    image_id: DOSSIER_IVAN_VASLOV_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_IVAN_VASLOV_UFOPEDIA
+    requires:
+      - STR_DOSSIER_IVAN_VASLOV
+    listOrder: 273100
+
+  - id: STR_DOSSIER_BRITTA_HANSEN
+    type_id: 7
+    image_id: DOSSIER_BRITTA_HANSEN_ART_CPAL
+    text_width: 144
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_BRITTA_HANSEN_UFOPEDIA
+    requires:
+      - STR_DOSSIER_BRITTA_HANSEN
+    listOrder: 268500
+
+  - id: STR_DOSSIER_DING_QUADONG
+    type_id: 7
+    image_id: DOSSIER_DING_QUADONG_ART_CPAL
+    text_width: 154
+    section: STR_DOSSIERS_UC
+    text: STR_DOSSIER_DING_QUADONG_UFOPEDIA
+    requires:
+      - STR_DOSSIER_DING_QUADONG
+    listOrder: 268600

@@ -186,6 +186,188 @@ extraSprites:
     height: 200
     files:
       0: Resources/Ufopaedia/Awards/MEDAL_BOMBARDIER_CPAL.png
+
+  - type: XCF_UFOPEDIA_IMG_MEDAL_COMMENDATED
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_COMMENDATED.png
+
+  - type: XCF_UFOPEDIA_IMG_MEDAL_CARREER_SCORE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_CARREER_SCORE.png
+
+  - type: XCF_UFOPEDIA_IMG_MEDAL_BASE_DEFENSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_BASE_DEFENSE.png
+
+  - type: XCF_UFOPEDIA_IMG_MEDAL_ALIEN_BASE_ASSAULT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_ALIEN_BASE_ASSAULT.png
+
+  - type: XCF_UFOPEDIA_IMG_MEDAL_CAMPAIGN_RIBBON_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_CAMPAIGN_RIBBON_CPAL.png
+
+  - type: XCF_UFOPEDIA_IMG_MEDAL_GLOBETROTTER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_GLOBETROTTER.png
+
+  - type: XCF_UFOPEDIA_IMG_MEDAL_SLAVEKILLS_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_SLAVEKILLS_CPAL.png
+
+  - type: XCF_UFOPEDIA_IMG_MEDAL_QUADKILL_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_QUADKILL_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_SPACER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_SPACER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_HORIZON_WALKER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_HORIZON_WALKER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_DREAMWALKER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_DREAMWALKER.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_MISSION_KILLS_11_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_MISSION_KILLS_11_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_7V7KILL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_7V7KILL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_LONESURVIVOR_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_LONESURVIVOR_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_WRESTLER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_WRESTLER.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_TECHNICIAN_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_TECHNICIAN_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_WARRIOR_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_WARRIOR_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_ASSAULTER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_ASSAULTER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_SNIPER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_SNIPER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_CANNONEER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_CANNONEER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_GUNNER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_GUNNER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_JUNGLE_MOWER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_JUNGLE_MOWER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_ROCKET_SCIENTIST_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_ROCKET_SCIENTIST_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_PURIFIER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_PURIFIER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_PEST_CONTROLLER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_PEST_CONTROLLER.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_GRENADIER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_GRENADIER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_SORCERER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_SORCERER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_HUNTER_KILLER_CPAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_HUNTER_KILLER_CPAL.png
+  - type: XCF_UFOPEDIA_IMG_MEDAL_BETRAYER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Awards/MEDAL_BETRAYER.png
 ufopaedia:
   - delete: STR_MEDAL_ORIGINAL8_NAME
   - delete: STR_MEDAL_SERVICE_TIME_NAME
@@ -218,6 +400,35 @@ ufopaedia:
   - delete: STR_MEDAL_TRADITIONALIST_NAME
   - delete: STR_MEDAL_SLASHER_NAME
   - delete: STR_MEDAL_BOMBARDIER_NAME
+  - delete: STR_MEDAL_COMMENDATED_NAME
+  - delete: STR_MEDAL_CARREER_SCORE_NAME
+  - delete: STR_MEDAL_BASE_DEFENSE_NAME
+  - delete: STR_MEDAL_ALIEN_BASE_ASSAULT_NAME
+  - delete: STR_MEDAL_CAMPAIGN_RIBBON_NAME
+  - delete: STR_MEDAL_GLOBETROTTER_NAME
+  - delete: STR_MEDAL_SLAVEKILLS_NAME
+  - delete: STR_MEDAL_QUADKILL_NAME
+  - delete: STR_MEDAL_SPACER_NAME
+  - delete: STR_MEDAL_HORIZON_WALKER_NAME
+  - delete: STR_MEDAL_DREAMWALKER_NAME
+  - delete: STR_MEDAL_MISSION_KILLS_11_NAME
+  - delete: STR_MEDAL_7V7KILL_NAME
+  - delete: STR_MEDAL_LONESURVIVOR_NAME
+  - delete: STR_MEDAL_WRESTLER_NAME
+  - delete: STR_MEDAL_TECHNICIAN_NAME
+  - delete: STR_MEDAL_WARRIOR_NAME
+  - delete: STR_MEDAL_ASSAULTER_NAME
+  - delete: STR_MEDAL_SNIPER_NAME
+  - delete: STR_MEDAL_CANNONEER_NAME
+  - delete: STR_MEDAL_GUNNER_NAME
+  - delete: STR_MEDAL_JUNGLE_MOWER_NAME
+  - delete: STR_MEDAL_ROCKET_SCIENTIST_NAME
+  - delete: STR_MEDAL_PURIFIER_NAME
+  - delete: STR_MEDAL_PEST_CONTROLLER_NAME
+  - delete: STR_MEDAL_GRENADIER_NAME
+  - delete: STR_MEDAL_SORCERER_NAME
+  - delete: STR_MEDAL_HUNTER_KILLER_NAME
+  - delete: STR_MEDAL_BETRAYER_NAME
   - id: STR_MEDAL_ORIGINAL8_NAME
     type_id: 7
     section: STR_COMMENDATIONS_UC
@@ -465,3 +676,264 @@ ufopaedia:
     text: STR_MEDAL_BOMBARDIER_UFOPEDIA
     text_width: 158
     listOrder: 360380
+
+  - id: STR_MEDAL_COMMENDATED_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_COMMENDATED
+    text: STR_MEDAL_COMMENDATED_UFOPEDIA
+    text_width: 158
+    listOrder: 360005
+
+  - id: STR_MEDAL_CARREER_SCORE_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_CARREER_SCORE
+    text: STR_MEDAL_CARREER_SCORE_UFOPEDIA
+    text_width: 158
+    listOrder: 360020
+
+  - id: STR_MEDAL_BASE_DEFENSE_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_BASE_DEFENSE
+    text: STR_MEDAL_BASE_DEFENSE_UFOPEDIA
+    text_width: 158
+    listOrder: 360070
+
+  - id: STR_MEDAL_ALIEN_BASE_ASSAULT_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_ALIEN_BASE_ASSAULT
+    text: STR_MEDAL_ALIEN_BASE_ASSAULT_UFOPEDIA
+    text_width: 158
+    listOrder: 360075
+
+  - id: STR_MEDAL_CAMPAIGN_RIBBON_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_CAMPAIGN_RIBBON_CPAL
+    text: STR_MEDAL_CAMPAIGN_RIBBON_UFOPEDIA
+    text_width: 158
+    listOrder: 360090
+
+  - id: STR_MEDAL_GLOBETROTTER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_GLOBETROTTER
+    text: STR_MEDAL_GLOBETROTTER_UFOPEDIA
+    text_width: 158
+    listOrder: 360095
+
+  - id: STR_MEDAL_SLAVEKILLS_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_SLAVEKILLS_CPAL
+    text: STR_MEDAL_SLAVEKILLS_UFOPEDIA
+    text_width: 158
+    listOrder: 360160
+
+  - id: STR_MEDAL_QUADKILL_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_QUADKILL_CPAL
+    text: STR_MEDAL_QUADKILL_UFOPEDIA
+    text_width: 158
+    listOrder: 360205
+
+  - id: STR_MEDAL_SPACER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_SPACER_CPAL
+    text: STR_MEDAL_SPACER_UFOPEDIA
+    text_width: 158
+    listOrder: 360086
+
+  - id: STR_MEDAL_HORIZON_WALKER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_HORIZON_WALKER_CPAL
+    text: STR_MEDAL_HORIZON_WALKER_UFOPEDIA
+    text_width: 158
+    listOrder: 360088
+
+  - id: STR_MEDAL_DREAMWALKER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_DREAMWALKER
+    text: STR_MEDAL_DREAMWALKER_UFOPEDIA
+    text_width: 158
+    listOrder: 360089
+
+  - id: STR_MEDAL_MISSION_KILLS_11_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_MISSION_KILLS_11_CPAL
+    text: STR_MEDAL_MISSION_KILLS_11_UFOPEDIA
+    text_width: 158
+    listOrder: 360175
+
+  - id: STR_MEDAL_7V7KILL_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_7V7KILL
+    text: STR_MEDAL_7V7KILL_UFOPEDIA
+    text_width: 158
+    listOrder: 360210
+
+  - id: STR_MEDAL_LONESURVIVOR_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_LONESURVIVOR_CPAL
+    text: STR_MEDAL_LONESURVIVOR_UFOPEDIA
+    text_width: 158
+    listOrder: 360265
+
+  - id: STR_MEDAL_WRESTLER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_WRESTLER
+    text: STR_MEDAL_WRESTLER_UFOPEDIA
+    text_width: 158
+    listOrder: 360335
+
+  - id: STR_MEDAL_TECHNICIAN_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_TECHNICIAN_CPAL
+    text: STR_MEDAL_TECHNICIAN_UFOPEDIA
+    text_width: 158
+    listOrder: 360337
+
+  - id: STR_MEDAL_WARRIOR_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_WARRIOR_CPAL
+    text: STR_MEDAL_WARRIOR_UFOPEDIA
+    text_width: 158
+    listOrder: 360339
+
+  - id: STR_MEDAL_ASSAULTER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_ASSAULTER_CPAL
+    text: STR_MEDAL_ASSAULTER_UFOPEDIA
+    text_width: 158
+    listOrder: 360350
+
+  - id: STR_MEDAL_SNIPER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_SNIPER_CPAL
+    text: STR_MEDAL_SNIPER_UFOPEDIA
+    text_width: 158
+    listOrder: 360365
+
+  - id: STR_MEDAL_CANNONEER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_CANNONEER_CPAL
+    text: STR_MEDAL_CANNONEER_UFOPEDIA
+    text_width: 158
+    listOrder: 360370
+
+  - id: STR_MEDAL_GUNNER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_GUNNER_CPAL
+    text: STR_MEDAL_GUNNER_UFOPEDIA
+    text_width: 158
+    listOrder: 360371
+
+  - id: STR_MEDAL_JUNGLE_MOWER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_JUNGLE_MOWER_CPAL
+    text: STR_MEDAL_JUNGLE_MOWER_UFOPEDIA
+    text_width: 158
+    listOrder: 360372
+
+  - id: STR_MEDAL_ROCKET_SCIENTIST_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_ROCKET_SCIENTIST_CPAL
+    text: STR_MEDAL_ROCKET_SCIENTIST_UFOPEDIA
+    text_width: 158
+    listOrder: 360375
+
+  - id: STR_MEDAL_PURIFIER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_PURIFIER_CPAL
+    text: STR_MEDAL_PURIFIER_UFOPEDIA
+    text_width: 158
+    listOrder: 360385
+
+  - id: STR_MEDAL_PEST_CONTROLLER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_PEST_CONTROLLER
+    text: STR_MEDAL_PEST_CONTROLLER_UFOPEDIA
+    text_width: 158
+    listOrder: 360390
+
+  - id: STR_MEDAL_GRENADIER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_GRENADIER_CPAL
+    text: STR_MEDAL_GRENADIER_UFOPEDIA
+    text_width: 158
+    listOrder: 360395
+
+  - id: STR_MEDAL_SORCERER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_SORCERER_CPAL
+    text: STR_MEDAL_SORCERER_UFOPEDIA
+    text_width: 158
+    listOrder: 360405
+
+  - id: STR_MEDAL_HUNTER_KILLER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_HUNTER_KILLER_CPAL
+    text: STR_MEDAL_HUNTER_KILLER_UFOPEDIA
+    text_width: 158
+    listOrder: 360425
+
+  - id: STR_MEDAL_BETRAYER_NAME
+    hiddenCommendation: true
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: XCF_UFOPEDIA_IMG_MEDAL_BETRAYER
+    text: STR_MEDAL_BETRAYER_UFOPEDIA
+    text_width: 158
+    listOrder: 360450
